@@ -5,146 +5,175 @@
 \usepackage{framed}
 \usepackage{listings}
 \usepackage{color}
+\usepackage{enumitem}
 
 \begin{document}
 
 \section*{Validation Procedure of QuantLets according to the Styleguide}
-The proposed procedure should be followed sequentially. All steps are illustrated by examples included in the styleguide.
+The proposed validation procedure should be followed sequentially. All steps are illustrated by examples included in the styleguide.
 
 \subsection*{Instructions} %Enter instruction text here
-\begin{enumerate}
-	\item Check MetaInfo - \label{MetaInfo-ini}\hyperref[MetaInfo]{Click to see example}
-	\begin{enumerate}
-		\item Name of QuantLet
-		\item Published in Book/ Paper
-		\item Description - at least 10 words; should begin with the verb, e.g. “plots the time series…”
-		\item Keywords - at least 5 words (the more the merrier)
-		List of keywords \url{http://quantnet.wiwi.hu-berlin.de/index.php?p=searchResults&w=allkeywords&sort=f}
+\begin{enumerate}[label*=\arabic*.]
+	\item \textbf{Check all items of MetaInfo} for order, completeness and correctness [optional items are written 	in \textit{italic}] - \label{MetaInfo-ini}\hyperref[MetaInfo]{Click to see example}
+	\begin{enumerate}[label*=\arabic*.]
+		\item \underline{Name of QuantLet} (e.g. SFE\_DAXlogreturns)
+		\item \underline{Published in} Book/ Paper
+		\item \underline{Description} - at least 10 words; should begin with the verb, e.g. “plots the time 			series…”
+		\item \underline{Keywords} (at least 5 words; the more the merrier) - 
+		Choose from \href{http://quantnet.wiwi.hu-berlin.de/index.php?p=searchResults&w=allkeywords&sort			=f}{list of keywords}
+		\item \textit{See also} - list related Quantlets
+		\item \underline{Author} - check at  \href{http://quantnet.hu-berlin.de/}{the list of  authors on the 		website} [if new, than write [New] in this field]
+		\item \underline{Submitted}
+		\item \underline{Datafile}
 		\item \textit{Input (optional)}
 		\item \textit{Output (optional)}
-		\item Author
-		\item Submitted
-		\item Datafile
+		\item \underline{Example} - check whether there is appropriate info on the website
 	\end{enumerate}
-	\item Check Code (Align QuantLet Code to Style Guide standards) 
-	\begin {enumerate}
-		\item check wether it works properly
-		\item check wether datafile is appropriate
-		\item check wether the description is appropriate
-		\item check wether plots\textbackslash pictures on the website are appropriate
-		\item \label{formatR-ini}\hyperref[formatR]{to format with the package	FormatR}
-			\begin{enumerate}
-				\item library(FormatR)  --\textgreater tidy\_source(file='output.R')
-				\item to check whether all the lines of the code are written properly
-				\item check that the code still works properly	
+	\item \textbf{Check Code} (Align QuantLet Code to Style Guide standards) 
+	\begin {enumerate}[label*=\arabic*.]
+		\item Check wether the code runs properly
+		\item Check wether datafile is appropriate and available
+		\item Check wether the descriptive comments are appropriate
+		\item Check wether plots\textbackslash pictures are appropriate to be uploaded on the website
+		\item \label{formatR-ini}\hyperref[formatR]{Format the code with the package FormatR}
+			\begin{enumerate}[label*=\arabic*.]
+				\item Install/ load package FormatR and execute tidy\_source command
+				\item Check whether all lines of code are still written properly
+				\item Check that the code still works 											properly	
 			\end{enumerate}
-		\item delete unnecessary empty lines (1-2 mostly, max. 4)
-		\item \label{all-equal-ini}\hyperref[all-equal]{change all "\textless -" with "="}
+		\item Delete unnecessary empty lines (1-2 mostly, max. 4)
+		\item \label{all-equal-ini}\hyperref[all-equal]{Change all "\textless -" with "="}
 		\item \label{align-assign-ini}\hyperref[align-assign]{Align all subsequent assignments by "="}
 		\item \label{indentation-ini}\hyperref[indentation]{Check indentation}
 	\end{enumerate}
 \end{enumerate}
 
-\subsection*{Textbook example of perfect Q's}
+\subsection*{Examples of validated Q's}
 \begin{itemize}
-	\item \url{http://quantnet.wiwi.hu-berlin.de/index.php?p=show&id=3204}
-	\item \url{http://quantnet.wiwi.hu-berlin.de/index.php?p=show&id=3164}
+	\item \url{http://quantnet.wiwi.hu-berlin.de/index.php?p=SFE_hq}
+	\item \url{http://quantnet.wiwi.hu-berlin.de/index.php?p=SFS_hq}
 \end{itemize}
 
 \section*{Styleguide}
 
 \subsection{\label{MetaInfo}\hyperref[MetaInfo-ini]{Complete and ordered MetaInfo-Header}}
+Your provided information is critical for the availability, presence and relevance of your submitted Quantlet. These information will be used for clustering, filtering and recommendation engines. With accurate and dense information you can help other users to find your QuantLet.
 \lstset{ %
 numbers=left,
 backgroundcolor = \color{white},
+escapeinside={\%*}{*)},
 breaklines = true}
 \begin{lstlisting}[frame=single]
-# --------------------------------
-# Name of QuantLet:
-# --------------------------------
-# Published in:
-# --------------------------------
-# Description:
-# --------------------------------
-# Keywords:
-# --------------------------------
-# Input:
-# --------------------------------
-# Output:
-# --------------------------------
-# Author:
-# --------------------------------
-# Submitted:
-# --------------------------------
-# Datafile:
-# --------------------------------
+# ------------------------------------------------------
+# %*\underline{Name of QuantLet}*): SFEustb
+# ------------------------------------------------------
+# %*\underline{Published in}*): Statistics of Financial Markets
+# ------------------------------------------------------
+# %*\underline{Description}*): Shows a 3-month U.S. Treasury bill daily 
+# 	yield from 1998 to 2008 as an approximation of 
+#	the short rate.
+# ------------------------------------------------------
+# %*\underline{Keywords}*): approximation, asset, data visualization, 
+#	financial, graphical representation, interest-
+#	rate, plot, short-rate, time-series, 
+#	visualization, yield
+# ------------------------------------------------------
+# %*\underline{See also}*): SFECIRmle, SFEcir, SFEscomCIR
+# ------------------------------------------------------
+# %*\underline{Author}*): Li Sun
+# ------------------------------------------------------
+# %*\underline{Submitted}*): Thu, July 16 2015 by quantomas
+# ------------------------------------------------------
+# %*\underline{Datafile}*): yield_US3month9808.txt
+# ------------------------------------------------------
+# %*\underline{Input}*): -
+# ------------------------------------------------------
+# %*\underline{Output}*): -
+# ------------------------------------------------------
+# %*\underline{Example}*): Plot of 3-month U.S. Treasury bill daily 
+# 	yield from 1998 to 2008. 
+# ------------------------------------------------------
 \end{lstlisting}
+\newpage
 
-\subsection{\label{formatR} \hyperref[formatR-ini]{How to use formatR}}
+\subsection{\label{formatR} \hyperref[formatR-ini]{Use FormatR to clean up your code}}
+You can easily preprocess your code with the FormatR package. Below is an example of how this is done.
 \lstset{ %
 numbers=left,
 backgroundcolor = \color{white},
+escapeinside={\%*}{*)},
 breaklines = true}
 \begin{lstlisting}[frame=single]
-# Cleaning up the source in an R script file "input.R", Indentation is set 
-# to two space characters. Maximum line width is 80 characters. 
-# The formatted code is written into a new script file "output.R"
+# Cleaning up the source code in an R script file 
+# "input.R", 
+# Indentation is set to two space characters. Maximum 
+# line width is 80 characters. 
+# The formatted code is written into a new script file 
+# "output.R"
 
-tidy_source(source = "input.R", indent = 2, width.cutoff = 
-80, file = "output.R")
+%*\textcolor{blue}{tidy\_source(source = "input.R", indent = 2, width.cutoff = 80, }*)
+%*\textcolor{blue}{ file = "output.R")}*)
 
-# similar to the previous example, but using the clipboard 
-# instead of an input file
+# similar to the previous example, but using the 
+# clipboard instead of an input file
 
-tidy_source(indent = 2, width.cutoff = 80, file = "output.R")
+%*\textcolor{blue}{tidy\_source(indent = 2, width.cutoff = 80, file = "output.R")}*)
 
-# when omitting function parameters the defaults indent = 4 and 
-# width.cutoff = 80 are being used. For simplicity, we recommend these for use on Quantnet.
+# when omitting function parameters the defaults 
+# indent = 4 and width.cutoff = 80 are being used. 
+# For simplicity, we recommend these for use on Quantnet.
 
-tidy_source(file = "output.R")
+%*\textcolor{blue}{tidy\_source(file = "output.R")}*)
 
 \end{lstlisting}
+More details of the package FormatR are available in the  \href{https://cran.r-project.org/web/packages/formatR/formatR.pdf}{package documentation}
 
 \subsection{\label{all-equal}\hyperref[all-equal-ini]{Change all "\textless-" with "="}}
+A QuantNet specific style requirement concerns the assignment operator. All "\textless -" should be replaced with "=" like shown below.
 \lstset{ %
 numbers=left,
 backgroundcolor = \color{white},
+escapeinside={\%*}{*)},
 breaklines = true}
 \begin{lstlisting}[frame=single]
 #BAD
-foo <- 5.0
-bar <- function(x) {
-	return x^2
+%*\textcolor{blue}{foo \textless - 5.0}*)
+%*\textcolor{blue}{bar \textless - function(x) \{}*)
+	%*\textcolor{blue}{return x}*)^2
 }
 
 #GOOD
-foo = 5.0
-bar = function(x) {
-	return x^2
+%*\textcolor{blue}{foo = 5.0}*)
+%*\textcolor{blue}{bar = function(x) \{}*)
+	%*\textcolor{blue}{return x}*)^2
 }
 
 \end{lstlisting}
 
 \subsection{\label{align-assign}\hyperref[align-assign-ini]{Align assignments in subsequent lines by "="}}
+\newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
+\newcommand{\tab}[1]{\hspace{.1\textwidth}\rlap{#1}}
 \lstset{ %
 numbers=left,
 backgroundcolor = \color{white},
+escapeinside={\%*}{*)},
 breaklines = true}
 \begin{lstlisting}[frame=single]
-foo	= 5.0
-foobar 	= 7.0
-bar 	= 8.0
+%*\textcolor{blue}{\itab{foo}  \tab{= 5.0}}*)
+%*\textcolor{blue}{\itab{foobar} 	\tab{= 7.0}}*)
+%*\textcolor{blue}{\itab{bar} 		\tab{= 8.0}}*)
 \end{lstlisting}
 
 \subsection{\label{indentation}\hyperref[indentation-ini]{Set four space characters or a single tab per indentation level}}
 \lstset{ %
 numbers=left,
 backgroundcolor = \color{white},
+escapeinside={\%*}{*)},
 breaklines = true}
 \begin{lstlisting}[frame=single]
-while (i < n){
-    i = i + 1
-}
+%*\textcolor{blue}{while (i \textless n)\{}*)
+    %*\textcolor{blue}{i = i + 1 }*)
+%*\textcolor{blue}{\}}*)
 \end{lstlisting}
 
 \end{document}
