@@ -1,0 +1,150 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{hyperref}
+\usepackage{framed}
+\usepackage{listings}
+\usepackage{color}
+
+\begin{document}
+
+\section*{Validation Procedure of QuantLets according to the Styleguide}
+The proposed procedure should be followed sequentially. All steps are illustrated by examples included in the styleguide.
+
+\subsection*{Instructions} %Enter instruction text here
+\begin{enumerate}
+	\item Check MetaInfo - \label{MetaInfo-ini}\hyperref[MetaInfo]{Click to see example}
+	\begin{enumerate}
+		\item Name of QuantLet
+		\item Published in Book/ Paper
+		\item Description - at least 10 words; should begin 			with 			the verb, e.g. “plots the time series…”
+		\item Keywords - at least 5 words (the more the 				merrier)
+		List of keywords \url{http://quantnet.wiwi.hu-berlin.de/index.php?p=searchResults&w=allkeywords&sort=f}
+		\item \textit{Input (optional)}
+		\item \textit{Output (optional)}
+		\item Author
+		\item Submitted
+		\item Datafile
+	\end{enumerate}
+	\item Check Code (Align QuantLet Code to Style Guide 			standards) 
+	\begin {enumerate}
+		\item check whether it works properly
+		\item check whether datafile is appropriate
+		\item check whether the description is appropriate
+		\item check whether plots\textbackslash pictures on 				the website are appropriate
+		\item \label{formatR-ini}\hyperref[formatR]{to format with the package	FormatR}
+			\begin{enumerate}
+				\item library(FormatR)  --\textgreater 							 tidy\_source(file='output.R')
+				\item to check whether all the lines of the 					code are written properly
+				\item check that the code still works 							properly	
+			\end{enumerate}
+		\item delete unnecessary empty lines (1-2 						mostly, max. 4)
+		\item \label{all-equal-ini}\hyperref[all-equal]{change all "\textless -" with "="}
+		\item \label{align-assign-ini}\hyperref[align-assign]{Align all subsequent assignments by "="}
+		\item \label{indentation-ini}\hyperref[indentation]{Check indentation}
+	\end{enumerate}
+\end{enumerate}
+
+\subsection*{Textbook example of perfect Q's}
+\begin{itemize}
+	\item \url{http://quantnet.wiwi.hu-berlin.de/index.php?			p=show&id=3204}
+	\item \url{http://quantnet.wiwi.hu-berlin.de/index.php?			p=show&id=3164}
+\end{itemize}
+
+\section*{Styleguide}
+
+\subsection{\label{MetaInfo}\hyperref[MetaInfo-ini]{Complete and ordered MetaInfo-Header}}
+\lstset{ %
+numbers=left,
+backgroundcolor = \color{white},
+breaklines = true}
+\begin{lstlisting}[frame=single]
+# --------------------------------
+# Name of QuantLet:
+# --------------------------------
+# Published in:
+# --------------------------------
+# Description:
+# --------------------------------
+# Keywords:
+# --------------------------------
+# Input:
+# --------------------------------
+# Output:
+# --------------------------------
+# Author:
+# --------------------------------
+# Submitted:
+# --------------------------------
+# Datafile:
+# --------------------------------
+\end{lstlisting}
+
+\subsection{\label{formatR} \hyperref[formatR-ini]{How to use formatR}}
+\lstset{ %
+numbers=left,
+backgroundcolor = \color{white},
+breaklines = true}
+\begin{lstlisting}[frame=single]
+# Cleaning up the source in an R script file "input.R", Indentation is set 
+# to two space characters. Maximum line width is 80 characters. 
+# The formatted code is written into a new script file "output.R"
+
+tidy_source(source = "input.R", indent = 2, width.cutoff = 
+80, file = "output.R")
+
+# similar to the previous example, but using the clipboard 
+# instead of an input file
+
+tidy_source(indent = 2, width.cutoff = 80, file = "output.R")
+
+# when omitting function parameters the defaults indent = 4 and 
+# width.cutoff = 80 are being used. For simplicity, we recommend these for use on Quantnet.
+
+tidy_source(file = "output.R")
+
+\end{lstlisting}
+
+\subsection{\label{all-equal}\hyperref[all-equal-ini]{Change all "\textless-" with "="}}
+\lstset{ %
+numbers=left,
+backgroundcolor = \color{white},
+breaklines = true}
+\begin{lstlisting}[frame=single]
+#BAD
+foo <- 5.0
+bar <- function(x) {
+	return x^2
+}
+
+#GOOD
+foo = 5.0
+bar = function(x) {
+	return x^2
+}
+
+\end{lstlisting}
+
+\subsection{\label{align-assign}\hyperref[align-assign-ini]{Align assignments in subsequent lines by "="}}
+\lstset{ %
+numbers=left,
+backgroundcolor = \color{white},
+breaklines = true}
+\begin{lstlisting}[frame=single]
+foo	= 5.0
+foobar 	= 7.0
+bar 	= 8.0
+\end{lstlisting}
+
+\subsection{\label{indentation}\hyperref[indentation-ini]{Set four space characters or a single tab per indentation level}}
+\lstset{ %
+numbers=left,
+backgroundcolor = \color{white},
+breaklines = true}
+\begin{lstlisting}[frame=single]
+while (i < n){
+    i = i + 1
+}
+\end{lstlisting}
+
+\end{document}
