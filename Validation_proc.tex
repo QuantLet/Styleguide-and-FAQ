@@ -14,38 +14,62 @@ The proposed validation procedure should be followed sequentially. All steps are
 
 \subsection*{Instructions} %Enter instruction text here
 \begin{enumerate}[label*=\arabic*.]
+	\item \textbf{Check Code} (Align QuantLet Code to Style Guide standards) 
+	\begin {enumerate}[label*=\arabic*.]
+		\item The code should begin with the following segment (1)
+		\begin{itemize}
+				\item  $\#$ clear all variables
+				\item rm(list = ls(all = TRUE))
+				\item graphics.off() 												
+		\end{itemize}
+		\item If packages are used, then all code segments which are related to packages should be written at the segment (2) [directly after segment (1)] like this
+		\begin{itemize}
+				\item  $\#$ install and load packages
+				\item libraries = c("rpart", "rpartScore")
+				\item lapply(libraries, function(x) if (!(x $\%$in$\%$ installed.packages())) $\{$
+				\item install.packages(x)	
+				\item $\})$			
+				\item lapply(libraries, library, quietly = TRUE, character.only = TRUE)							
+		\end{itemize}
+		\item Check whether the code runs properly
+		\item Check whether datafile is appropriate and available
+				\item \label{formatR-ini}\hyperref[formatR]{Format the code with the package FormatR}
+			\begin{enumerate}[label*=\arabic*.]
+				\item Install/ load package FormatR and execute tidy\_source command
+				\item Check whether all lines of code are still written properly
+				\item Check that the code still works 											properly	
+			\end{enumerate}
+		\item Check whether plots\textbackslash pictures are appropriate to be uploaded on the website
+			\begin{enumerate}[label*=\arabic*.]
+				\item Check whether all plots have appropriate titles and legends
+			\end{enumerate}
+		\item Check whether the descriptive comments are appropriate and written as one line
+		\item Delete unnecessary empty lines
+		\begin{enumerate}[label*=\arabic*.]
+				\item There should be no empty line between comment and corresponding code segment
+				\item There should be one empty line after commented code segment (could be two, if it is one of few major code segments)
+				\item There should be not more than 2 empty lines in a row
+			\end{enumerate}
+		\item \label{all-equal-ini}\hyperref[all-equal]{Change all "\textless -" with "="}
+		\item \label{align-assign-ini}\hyperref[align-assign]{Align all subsequent assignments by "="}
+		\item \label{indentation-ini}\hyperref[indentation]{Check indentation}
+	\end{enumerate}
 	\item \textbf{Check all items of MetaInfo} for order, completeness and correctness [optional items are written 	in \textit{italic}] - \label{MetaInfo-ini}\hyperref[MetaInfo]{Click to see example}
 	\begin{enumerate}[label*=\arabic*.]
-		\item \underline{Name of QuantLet} (e.g. SFE\_DAXlogreturns)
+		\item \underline{Name of QuantLet} (e.g. SFEDAXlogreturns) \\\\ {\it SFE\_DAXlogreturns - bad style}
 		\item \underline{Published in} Book/ Paper
-		\item \underline{Description} - at least 10 words; should begin with the verb, e.g. “plots the time 			series…”
+		\item \underline{Description} - at least 10 words; should begin with the verb and with capital, e.g. "Plots the time series \dots"
 		\item \underline{Keywords} (at least 5 words; the more the merrier) - 
 		Choose from \href{http://quantnet.wiwi.hu-berlin.de/index.php?p=searchResults&w=allkeywords&sort			=f}{list of keywords}
 		\item \textit{See also} - list related Quantlets
 		\item \underline{Author} - check at  \href{http://quantnet.hu-berlin.de/}{the list of  authors on the 		website} [if new, than write [New] in this field]
 		\item \underline{Submitted}
 		\item \underline{Datafile}
-		\item \textit{Input (optional)}
-		\item \textit{Output (optional)}
-		\item \underline{Example} - check whether there is appropriate info on the website
+		\item \textit{Input (optional)} Should contain some new info, which is not written in other meta-info fields
+		\item \textit{Output (optional)} Should contain some new info, which is not written in other meta-info fields
+		\item \underline{Example} - check whether there is appropriate info on the website. Should contain some new info, which is not written in other meta-info fields
 	\end{enumerate}
-	\item \textbf{Check Code} (Align QuantLet Code to Style Guide standards) 
-	\begin {enumerate}[label*=\arabic*.]
-		\item Check wether the code runs properly
-		\item Check wether datafile is appropriate and available
-		\item Check wether the descriptive comments are appropriate
-		\item Check wether plots\textbackslash pictures are appropriate to be uploaded on the website
-		\item \label{formatR-ini}\hyperref[formatR]{Format the code with the package FormatR}
-			\begin{enumerate}[label*=\arabic*.]
-				\item Install/ load package FormatR and execute tidy\_source command
-				\item Check whether all lines of code are still written properly
-				\item Check that the code still works 											properly	
-			\end{enumerate}
-		\item Delete unnecessary empty lines (1-2 mostly, max. 4)
-		\item \label{all-equal-ini}\hyperref[all-equal]{Change all "\textless -" with "="}
-		\item \label{align-assign-ini}\hyperref[align-assign]{Align all subsequent assignments by "="}
-		\item \label{indentation-ini}\hyperref[indentation]{Check indentation}
-	\end{enumerate}
+
 \end{enumerate}
 
 \subsection*{Examples of validated Q's}
@@ -164,7 +188,7 @@ breaklines = true}
 %*\textcolor{blue}{\itab{bar} 		\tab{= 8.0}}*)
 \end{lstlisting}
 
-\subsection{\label{indentation}\hyperref[indentation-ini]{Set four space characters or a single tab per indentation level}}
+\subsection{\label{indentation}\hyperref[indentation-ini]{Set four space characters or a single tab per indentation level {\it it should be done automatically by formatR}}}
 \lstset{ %
 numbers=left,
 backgroundcolor = \color{white},
