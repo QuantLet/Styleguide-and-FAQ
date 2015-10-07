@@ -12,15 +12,15 @@ Every Quantlet consists of two elementary parts with equal relevance:
 origin and purpose. Furthermore, a list of keywords and references
 to other related Quantlets are stated.  The relevance of the header lies
 in its functionality as an information source for all suceeding data mining
-activities (e.g. Clustering of all Quantlets). Because clustering is an
-integral part of QuantNet the provision of sufficient meta-information is
+activities (e.g. Clustering, filtering and recomandation engines). 
+Because clustering is an integral part of QuantNet the provision of sufficient meta-information is
 mandatory.
 
 * __Code-Section:__ A correct working code represents the second
 elemantary part. The described functionality in the metainfo should
 practically be realised by using the provided code. Besides correct 
 functionality the code needs to be formatted according to the provided 
-styleguide. Formatting ensures readability and comprehensibility is 
+styleguide. Formatting ensures readability while comprehensibility is 
 ensured by sufficient comments.
 
 ### Header
@@ -42,9 +42,47 @@ Should contain some new info, which is not written in other meta-info fields
 
 #### Example of complete and correct header
 
+\# ------------------------------------------------------  
+\# Name of QuantLet:  
+\# ------------------------------------------------------  
+\# Published in:  
+\# ------------------------------------------------------  
+\# Description:  
+\# ------------------------------------------------------  
+\# Keywords:  
+\# ------------------------------------------------------  
+\# See also:  
+\# ------------------------------------------------------  
+\# Author:  
+\# ------------------------------------------------------  
+\# Submitted:  
+\# ------------------------------------------------------  
+\# Datafile:  
+\# ------------------------------------------------------  
+\# Input:  
+\# ------------------------------------------------------  
+\# Output:  
+\# ------------------------------------------------------  
+\# Example:  
+\# ------------------------------------------------------  
+
 ### Code
 
-#### FormatR
+#### Use "FormatR package" to clean up your code  
+You can easily preprocess your code with the FormatR package. In the
+following you will find instructions on how to execute the relevant
+function.
+
+----------------------------------------------------------  
+
+\# Cleaning up the source code in an R script file "input.R",  
+\# Indentation is set to two space characters and maximum line width is 80 characters.
+\# The formatted code will be written into the new script file "output.R"
+\<pre>
+test
+\</pre>
+
+
 
 #### Style requirements
 1. indentation
