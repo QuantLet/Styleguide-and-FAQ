@@ -94,10 +94,10 @@ tidy_source(file = "output.R")
 More details about the package FormatR are available in the [package documentation](https://cran.r-project.org/web/packages/formatR/index.html).
 
 #### Style requirements
-1. Change all "<-" with "="
+* __Change all "<-" with "="__
 
-A QuantNet specific style requirement adresses the assignment operator. All
-"<-" should be replaced with "=" like shown below.
+A QuantNet specific style requirement adresses the assignment operator. 
+All "<-" should be replaced with "=" like shown below.
 ```
 # BAD
 foo <- 5.0
@@ -112,15 +112,16 @@ bar = function(x){
 }
 ```
 
-2. Align assignments in subsequent lines by "="
+* __Align assignments in subsequent lines by "="__
+
 ```
 foo     = 5.0
 foobar  = 7.0
 bar     = 8.0
 ```
 
-3. Set four space characters or a single tab per indentation level (_this
-should be done automatically by formatR_)
+* __Set four space characters or a single tab per indentation level (_this
+should be done automatically by formatR_)__
 
 ```
 while (i<n){
