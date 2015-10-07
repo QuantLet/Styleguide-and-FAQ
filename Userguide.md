@@ -44,7 +44,7 @@ in other meta-info fields
 Should contain some new info, which is not written in other meta-info fields
 
 #### Example of complete and correct header
-```
+```R
 # ------------------------------------------------------  
 # Name of QuantLet:  
 # ------------------------------------------------------  
@@ -77,7 +77,7 @@ do 80% of the work for you. In the following you will find instructions on how t
 function.
 
 ----------------------------------------------------------  
-```
+```R
 # Cleaning up the source code in an R script file "input.R",  
 # Indentation is set to two space characters and maximum line width is 80 characters.
 # The formatted code will be written into the new script file "output.R"
@@ -101,7 +101,7 @@ More details about the package FormatR are available in the [package documentati
 
 A QuantNet specific style requirement adresses the assignment operator. 
 All "<-" should be replaced with "=" like shown below.
-```
+```R
 # BAD
 foo <- 5.0
 bar <- function(x) {
@@ -117,7 +117,7 @@ bar = function(x){
 
 * __Align assignments in subsequent lines by "="__
 
-```
+```R
 foo     = 5.0
 foobar  = 7.0
 bar     = 8.0
@@ -126,7 +126,7 @@ bar     = 8.0
 * __Set four space characters or a single tab per indentation level (_this
 should be done automatically by formatR_)__
 
-```
+```R
 while (i<n){
   i = i + 1
 }
@@ -137,7 +137,7 @@ while (i<n){
 2. Check if MetaInfo is complete and that you have sufficient keywords from the list
 
 ## Appendix
-* Example's of correctly formatted Quantlets with all required meta-information
+Example's of correctly formatted Quantlets with all required meta-information
 1. http://quantnet.wiwi.hu-berlin.de/index.php?p=SFE_hq
 2. http://quantnet.wiwi.hu-berlin.de/index.php?p=SFS_hq
 
