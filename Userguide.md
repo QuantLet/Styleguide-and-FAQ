@@ -14,7 +14,7 @@ Every Quantlet consists of two elementary parts with equal relevance:
 origin and purpose. Furthermore, a list of keywords and references
 to other related Quantlets are stated.  The relevance of the header lies
 in its functionality as an information source for all suceeding data mining
-activities (e.g. Clustering, filtering and recomandation engines). 
+activities (e.g. Clustering, filtering and recommendation engines). 
 Because clustering is an integral part of QuantNet the provision of sufficient meta-information is
 mandatory.
 
