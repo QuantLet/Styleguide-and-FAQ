@@ -90,9 +90,8 @@ tidy_source(indent = 2, width.cutoff = 80, file = "output.R")
 # For simplicity, we recommend these for the use on QuantNet
 
 tidy_source(file = "output.R")
-
 ```
-
+More details about the package FormatR are available in the [package documentation](https://cran.r-project.org/web/packages/formatR/index.html)
 
 
 #### Style requirements
