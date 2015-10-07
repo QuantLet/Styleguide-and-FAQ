@@ -41,31 +41,31 @@ in other meta-info fields
 Should contain some new info, which is not written in other meta-info fields
 
 #### Example of complete and correct header
-
-\# ------------------------------------------------------  
-\# Name of QuantLet:  
-\# ------------------------------------------------------  
-\# Published in:  
-\# ------------------------------------------------------  
-\# Description:  
-\# ------------------------------------------------------  
-\# Keywords:  
-\# ------------------------------------------------------  
-\# See also:  
-\# ------------------------------------------------------  
-\# Author:  
-\# ------------------------------------------------------  
-\# Submitted:  
-\# ------------------------------------------------------  
-\# Datafile:  
-\# ------------------------------------------------------  
-\# Input:  
-\# ------------------------------------------------------  
-\# Output:  
-\# ------------------------------------------------------  
-\# Example:  
-\# ------------------------------------------------------  
-
+```
+# ------------------------------------------------------  
+# Name of QuantLet:  
+# ------------------------------------------------------  
+# Published in:  
+# ------------------------------------------------------  
+# Description:  
+# ------------------------------------------------------  
+# Keywords:  
+# ------------------------------------------------------  
+# See also:  
+# ------------------------------------------------------  
+# Author:  
+# ------------------------------------------------------  
+# Submitted:  
+# ------------------------------------------------------  
+# Datafile:  
+# ------------------------------------------------------  
+# Input:  
+# ------------------------------------------------------  
+# Output:  
+# ------------------------------------------------------  
+# Example:  
+# ------------------------------------------------------  
+```
 ### Code
 
 #### Use "FormatR package" to clean up your code  
@@ -74,13 +74,24 @@ following you will find instructions on how to execute the relevant
 function.
 
 ----------------------------------------------------------  
+```
+# Cleaning up the source code in an R script file "input.R",  
+# Indentation is set to two space characters and maximum line width is 80 characters.
+# The formatted code will be written into the new script file "output.R"
 
-\# Cleaning up the source code in an R script file "input.R",  
-\# Indentation is set to two space characters and maximum line width is 80 characters.
-\# The formatted code will be written into the new script file "output.R"
-\<pre>
-test
-\</pre>
+tidy_source(source = "input.R", indent = 2, width.cutoff = 80, file = "output.R")
+
+# similar to the previous example, but using the clipboard instead of an input file
+
+tidy_source(indent = 2, width.cutoff = 80, file = "output.R")
+
+# when omitting function parameters the defaults
+# indent = 4 and width. cutoff = 80 are being used.
+# For simplicity, we recommend these for the use on QuantNet
+
+tidy_source(file = "output.R")
+
+```
 
 
 
