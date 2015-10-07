@@ -69,8 +69,8 @@ Should contain some new info, which is not written in other meta-info fields
 ### Code
 
 #### Use "FormatR package" to clean up your code  
-You can easily preprocess your code with the FormatR package. In the
-following you will find instructions on how to execute the relevant
+You can easily preprocess your code with the FormatR package. This will
+do 80% of the work for you. In the following you will find instructions on how to execute the relevant
 function.
 
 ----------------------------------------------------------  
@@ -91,12 +91,42 @@ tidy_source(indent = 2, width.cutoff = 80, file = "output.R")
 
 tidy_source(file = "output.R")
 ```
-More details about the package FormatR are available in the [package documentation](https://cran.r-project.org/web/packages/formatR/index.html)
-
+More details about the package FormatR are available in the [package documentation](https://cran.r-project.org/web/packages/formatR/index.html).
 
 #### Style requirements
-1. indentation
-2. ....
+1. Change all "<-" with "="
+
+A QuantNet specific style requirement adresses the assignment operator. All
+"<-" should be replaced with "=" like shown below.
+```
+# BAD
+foo <- 5.0
+bar <- function(x) {
+          return x^2
+}
+
+# GOOD
+foo = 5.0
+bar = function(x){
+          return x^2
+}
+```
+
+2. Align assignments in subsequent lines by "="
+```
+foo     = 5.0
+foobar  = 7.0
+bar     = 8.0
+```
+
+3. Set four space characters or a single tab per indentation level (_this
+should be done automatically by formatR_)
+
+```
+while (i<n){
+  i = i + 1
+}
+```
 
 ## Final Check
 1. x
