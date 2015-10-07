@@ -1,9 +1,11 @@
 # Styleguide of Quantlets
 
-The following pages will introduce the Styleguide of Quantlets. 
+The following pages will introduce the Styleguide of Quantlets. An overview 
+of the structre of a Quantlet is given and explaining each part's relevance.
 You will find descriptions and instructions on how to format your 
 code as well as detailed examples about the required information 
-in the header of your Quantlet.
+in the header of your Quantlet. Several illustrative examples of correct Quantlets
+are listed in the Appendix.
 
 ## Structure of Quantlets
 
@@ -29,13 +31,14 @@ ensured by sufficient comments.
 2. Published in Book / Paper
 3. Description - at least 10 words should begin the verb and with the capital, e.g.
 "Plots the time series ..."
-4. See also - list related Quantlets
-5. Author - check at the list of authors on the website [if new, than write [New]
+4. Keywords - at least 5 words (the more the merrier) from the [keyword list](http://quantnet.wiwi.hu-berlin.de/index.php?p=searchResults&w=allkeywords&sort=f) only
+4. See also - mention related Quantlets
+5. Author - check for existing authors on the [website](http://quantnet.hu-berlin.de/) [if new, than write [New]
 in this field]
 6. Datafile
-7. Input (optional) - Should contain some new info, which is not written 
+7. _Input (optional)_ - Should contain some new info, which is not written 
 in other meta-info fields
-8. Output (optional) - Should contain some new info, which is not written
+8. _Output (optional)_ - Should contain some new info, which is not written
 in other meta-info fields
 9. Example - check whether there is appropriate info on the website.
 Should contain some new info, which is not written in other meta-info fields
@@ -130,8 +133,11 @@ while (i<n){
 ```
 
 ## Final Check
-1. x
-2. y
+1. Check if your code runs properly and complies to the style requirements
+2. Check if MetaInfo is complete and that you have sufficient keywords from the list
 
 ## Appendix
+* Example's of correctly formatted Quantlets with all required meta-information
+1. http://quantnet.wiwi.hu-berlin.de/index.php?p=SFE_hq
+2. http://quantnet.wiwi.hu-berlin.de/index.php?p=SFS_hq
 
