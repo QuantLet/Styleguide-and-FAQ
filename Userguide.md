@@ -72,7 +72,7 @@ Should contain some new info, which is not written in other meta-info fields
 ```
 ### Code
 
-#### Use "FormatR package" to clean up your code  
+#### Use "FormatR package" to clean up your R code (In the case you are using another language like Matlab try to implement the following steps accordingly) 
 You can easily preprocess your code with the FormatR package. This will
 do 80% of the work for you. In the following you will find instructions on how to execute the relevant
 function.
