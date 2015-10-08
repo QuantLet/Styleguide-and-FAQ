@@ -36,7 +36,7 @@ ensured by sufficient comments.
 5. __Author__ - check for existing authors on the [website](http://quantnet.hu-berlin.de/) [if new, than write [New]
 in this field]
 6. __Submitted__ - state your name and the time of submission
-7. Datafile
+7. __Datafile__
 8. ___Input (optional)___ - Should contain some new info, which is not written 
 in other meta-info fields
 9. ___Output (optional)___ - Should contain some new info, which is not written
