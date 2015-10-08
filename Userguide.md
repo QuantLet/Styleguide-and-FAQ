@@ -18,9 +18,9 @@ activities (e.g. Clustering, filtering and recommendation engines).
 Because clustering is an integral part of QuantNet the provision of sufficient meta-information is
 mandatory.
 
-* __Code-Section:__ A correct working code represents the second
+* __Code-Section:__ A correctly working code represents the second
 elemantary part. The described functionality in the metainfo should
-practically be realised by using the provided code. Besides correct 
+practically be realizable by using the provided code. Besides correct 
 functionality the code needs to be formatted according to the provided 
 styleguide. Formatting ensures readability while comprehensibility is 
 ensured by sufficient comments.
@@ -29,18 +29,19 @@ ensured by sufficient comments.
 #### Required Meta-Information
 1. Name of Quantlet (e.g. SFEDAXlogreturns)
 2. Published in Book / Paper
-3. Description - at least 10 words should begin the verb and with the capital, e.g.
+3. Description - at least 10 words; should begin with a verb and with capital letters, e.g.
 "Plots the time series ..."
 4. Keywords - at least 5 words (the more the merrier) from the [keyword list](http://quantnet.wiwi.hu-berlin.de/index.php?p=searchResults&w=allkeywords&sort=f) only
 4. See also - mention related Quantlets
 5. Author - check for existing authors on the [website](http://quantnet.hu-berlin.de/) [if new, than write [New]
 in this field]
-6. Datafile
-7. _Input (optional)_ - Should contain some new info, which is not written 
+6. Submitted - state your name and the time of submission
+7. Datafile
+8. _Input (optional)_ - Should contain some new info, which is not written 
 in other meta-info fields
-8. _Output (optional)_ - Should contain some new info, which is not written
+9. _Output (optional)_ - Should contain some new info, which is not written
 in other meta-info fields
-9. Example - check whether there is appropriate info on the website.
+10. Example - check whether there is appropriate info on the website.
 Should contain some new info, which is not written in other meta-info fields
 
 #### Example of complete and correct header
