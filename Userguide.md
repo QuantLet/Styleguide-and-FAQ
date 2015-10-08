@@ -19,7 +19,7 @@ Because clustering is an integral part of QuantNet the provision of sufficient m
 mandatory.
 
 * __Code-Section:__ A correctly working code represents the second
-elemantary part. The described functionality in the metainfo should
+elementary part. The described functionality in the metainfo should
 practically be realizable by using the provided code. Besides correct 
 functionality the code needs to be formatted according to the provided 
 styleguide. Formatting ensures readability while comprehensibility is 
