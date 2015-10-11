@@ -1,7 +1,7 @@
 # Styleguide of Quantlets
 
 The following pages will introduce the Styleguide of Quantlets. An overview 
-of the structre of a Quantlet is given and explaining each part's relevance.
+of the structure of a Quantlet is given and explaining each part's relevance.
 You will find descriptions and instructions on how to format your 
 code as well as detailed examples about the required information 
 in the header of your Quantlet. Several illustrative examples of correct Quantlets
@@ -13,7 +13,7 @@ Every Quantlet consists of two elementary parts with equal relevance:
 * __Header-Section:__ Contains Meta-Information about the functionality,
 origin and purpose. Furthermore, a list of keywords and references
 to other related Quantlets are stated.  The relevance of the header lies
-in its functionality as an information source for all suceeding data mining
+in its functionality as an information source for all succeeding data mining
 activities (e.g. Clustering, filtering and recommendation engines). 
 Because clustering is an integral part of QuantNet the provision of sufficient meta-information is
 mandatory.
@@ -36,7 +36,7 @@ ensured by sufficient comments.
 5. __Author__ - check for existing authors on the [website](http://quantnet.hu-berlin.de/) [if new, than write [New]
 in this field]
 6. __Submitted__ - state your name and the time of submission
-7. __Datafile__
+7. __Datafile__ - check whether all datafiles which are used in the code are listed here
 8. ___Input (optional)___ - Should contain some new info, which is not written 
 in other meta-info fields
 9. ___Output (optional)___ - Should contain some new info, which is not written
