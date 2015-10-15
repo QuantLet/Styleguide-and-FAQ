@@ -135,7 +135,7 @@ while (i<n){
 
 ## Final Check
 1. Check if your code runs properly and complies to the style requirements
-2. Check if MetaInfo is complete and that you have sufficient keywords from the list
+2. Check if MetaInfo is complete and that you have sufficient keywords from the [keyword list](http://quantnet.wiwi.hu-berlin.de/index.php?p=searchResults&w=allkeywords&sort=f) 
 
 ## Appendix
 Example's of correctly formatted Quantlets with all required meta-information
