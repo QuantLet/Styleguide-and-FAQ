@@ -105,14 +105,14 @@ All "<-" should be replaced with "=" like shown below.
 ```R
 # BAD
 foo <- 5.0
-bar <- function(x) {
-          return x^2
+bar <- function(x) 
+    return x^2
 }
 
 # GOOD
 foo = 5.0
 bar = function(x){
-          return x^2
+    return x^2
 }
 ```
 
