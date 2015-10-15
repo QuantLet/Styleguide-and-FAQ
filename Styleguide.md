@@ -124,7 +124,7 @@ foobar  = 7.0
 bar     = 8.0
 ```
 
-* __Set four space characters or a single tab per indentation level (_this
+* __Set four space characters (_this
 should be done automatically by formatR_)__
 
 ```R
