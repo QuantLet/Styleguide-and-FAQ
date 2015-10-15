@@ -6,6 +6,7 @@
 \usepackage{listings}
 \usepackage{color}
 \usepackage{enumitem}
+\usepackage{mdframed}
 
 \begin{document}
 
@@ -17,20 +18,21 @@ The proposed validation procedure should be followed sequentially. All steps are
 	\item \textbf{Check Code} (Align QuantLet Code to Style Guide standards) 
 	\begin {enumerate}[label*=\arabic*.]
 		\item The code should begin with the following segment (1)
-		\begin{itemize}
-				\item  $\#$ clear all variables
-				\item rm(list = ls(all = TRUE))
-				\item graphics.off() 												
-		\end{itemize}
-		\item If packages are used, then all code segments which are related to packages should be written at the segment (2) [directly after segment (1)] like this
-		\begin{itemize}
-				\item  $\#$ install and load packages
-				\item libraries = c("rpart", "rpartScore")
-				\item lapply(libraries, function(x) if (!(x $\%$in$\%$ installed.packages())) $\{$
-				\item install.packages(x)	
-				\item $\})$			
-				\item lapply(libraries, library, quietly = TRUE, character.only = TRUE)							
-		\end{itemize}
+			\begin{mdframed}
+				{$\#$ clear all variables
+				\\rm(list = ls(all = TRUE))
+				\\graphics.off() }
+			\end{mdframed}												
+		\item If packages are used, then all code segments which are related to packages should be written at the segment (2) [directly after segment (1)] like this:
+			\begin{mdframed} {
+				$\#$ install and load packages 
+				\\libraries = c("rpart", "rpartScore") 
+				\\lapply(libraries, function(x) if (!(x $\%$in$\%$ installed.packages())) $\{$
+				\\ \hspace{2cm} install.packages(x)	
+				\\ $\})$			
+				\\ lapply(libraries, library, quietly = TRUE, character.only = TRUE)}
+			\end{mdframed}						
+		
 		\item Check whether the code runs properly
 		\item Check whether datafile is appropriate and available
 				\item \label{formatR-ini}\hyperref[formatR]{Format the code with the package FormatR}
@@ -188,7 +190,7 @@ breaklines = true}
 %*\textcolor{blue}{\itab{bar} 		\tab{= 8.0}}*)
 \end{lstlisting}
 
-\subsection{\label{indentation}\hyperref[indentation-ini]{Set four space characters or a single tab per indentation level {\it it should be done automatically by formatR}}}
+\subsection{\label{indentation}\hyperref[indentation-ini]{Set four space characters per indentation level {\it it should be done automatically by formatR}}}
 \lstset{ %
 numbers=left,
 backgroundcolor = \color{white},
