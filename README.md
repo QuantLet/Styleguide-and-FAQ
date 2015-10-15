@@ -20,3 +20,13 @@ Date:   July 25, 2005
 | -------- | -------- |
 | cell 1   | cell 2   |
 | cell 3   | cell 4   |
+
+{
+  "name": "inventory_date",
+  "titles": "Inventory Date",
+  "dc:description": "The date of the operation that was performed.",
+  "datatype": {
+    "base": "date",
+    "format": "M/d/yyyy"
+  }
+}
