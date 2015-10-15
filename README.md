@@ -11,3 +11,8 @@ It includes a sequence of steps with additional examples to eliminate any confus
 </myxml>
 ```
 
+Title:  A New MultiMarkdown Document  
+Author: Fletcher T. Penney  
+        John Doe  
+Date:   July 25, 2005
+
