@@ -124,12 +124,12 @@ foobar  = 7.0
 bar     = 8.0
 ```
 
-* __Set four space characters (_this
+* __Set four space characters for indentation (_this
 should be done automatically by formatR_)__
 
 ```R
 while (i<n){
-  i = i + 1
+    i = i + 1
 }
 ```
 
