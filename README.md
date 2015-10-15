@@ -16,3 +16,7 @@ Author: Fletcher T. Penney
         John Doe  
 Date:   July 25, 2005
 
+| header 1 | header 2 |
+| -------- | -------- |
+| cell 1   | cell 2   |
+| cell 3   | cell 4   |
