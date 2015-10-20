@@ -33,6 +33,14 @@ Date:   July 25, 2005
 
 
 
-
 | cell 1   | cell 2   |
 | cell 3   | cell 4   |
+
+
+---
+title: "Sample Document"
+output:
+  html_document:
+    toc: true
+    theme: united
+---
