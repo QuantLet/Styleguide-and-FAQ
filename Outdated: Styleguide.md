@@ -47,9 +47,9 @@ in other meta-info fields
 Should contain some new info, which is not written in other meta-info fields
 
 #### We use 'YAML' to format metainfo.txt to make things easy and fast
-YAML™ (rhymes with “camel”) is a human-friendly, cross language, Unicode based data serialization language designed around the common native data types of agile programming languages. 
+YAML™ (rhymes with “camel”) is a human-friendly, cross language data serialization language. You will use it almost intuitively. 
 
-#### Example of complete and correct "metainfo.txt"
+#### Example of complete and correct "metainfo.txt" in YAML format
 ```R
  
 Name of QuantLet:  MVAreturns
@@ -75,6 +75,18 @@ Output:
 Example:  
   
 ```
+You will only need to know two basic elements:
+1. If you write multiple lines you have to put it in ' '
+```R
+...
+Description:       'Shows monthly returns of six US firms
+from Jan 2000 to Dec 2009.'
+...
+```
+2. YAML prohibits the use of special german characters like "ä, ö, ü".
+
+You can chack the complete [documentation](http://www.yaml.org/spec/1.2/spec.html).
+
 ### Code
 
 #### Use "FormatR package" to clean up your R code (In the case you are using another language like Matlab try to implement the following steps accordingly) 
