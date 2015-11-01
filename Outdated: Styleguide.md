@@ -7,27 +7,28 @@ code as well as detailed examples about the required information
 around your Quantlet. Several illustrative examples of correct Quantlets
 are listed in the Appendix.
 
-## Structure of Quantlets
+## Structure of a Quantlet Repository on Github
 
-Every Quantlet consists of two elementary parts with equal relevance:
-* __Header-Section:__ Contains Meta-Information about the functionality,
+Every Quantlet Repository consists of two elementary parts with equal relevance:
+* __Metainfo.txt:__ Contains Meta-Information about the functionality,
 origin and purpose. Furthermore, a list of keywords and references
-to other related Quantlets are stated.  The header will be included as a
-comment in the code section. Besides the commented in-code version of your header
-you will need to create an extra file "metainfo.txt", which will include a
-formatted version of your header. The formatted "metainfo.txt" will be
-used for data mining practices (e.g. Clustering, filtering
-and recommendation engines) and is therefore mandatory. In the next sections,
+to other related Quantlets are stated. You will need to create the file 
+"metainfo.txt", which will be formatted in 'YAML', an easy and intuitive
+data serialization language. The formatted "metainfo.txt" will be used for 
+data mining practices (e.g. Clustering, filtering and recommendation engines) 
+and is therefore mandatory. In the next sections,
 you will find examples on how to format the "metainfo.txt"
 
-* __Code-Section:__ A correctly working code represents the second
+* __Quantletcode.r:__ The first section of your code will
+include the content of metainfo.txt as a comment. 
+Next, a correctly working code represents the second
 elementary part. The described functionality in the metainfo should
 practically be realizable by using the provided code. Besides correct 
 functionality the code needs to be formatted according to the provided 
 styleguide. Formatting ensures readability while comprehensibility is 
 ensured by sufficient comments.
 
-### Header
+### Metainfo.txt
 #### Required Meta-Information
 1. __Name of Quantlet__ (e.g. SFEDAXlogreturns)
 2. __Published in__ Book / Paper
