@@ -4,7 +4,7 @@ The following pages will introduce the Styleguide of Quantlets. An overview
 of the structure of a Quantlet is given and explaining each part's relevance.
 You will find descriptions and instructions on how to format your 
 code as well as detailed examples about the required information 
-in the header of your Quantlet. Several illustrative examples of correct Quantlets
+around your Quantlet. Several illustrative examples of correct Quantlets
 are listed in the Appendix.
 
 ## Structure of Quantlets
@@ -12,11 +12,13 @@ are listed in the Appendix.
 Every Quantlet consists of two elementary parts with equal relevance:
 * __Header-Section:__ Contains Meta-Information about the functionality,
 origin and purpose. Furthermore, a list of keywords and references
-to other related Quantlets are stated.  The relevance of the header lies
-in its functionality as an information source for all succeeding data mining
-activities (e.g. Clustering, filtering and recommendation engines). 
-Because clustering is an integral part of QuantNet the provision of sufficient meta-information is
-mandatory.
+to other related Quantlets are stated.  The header will be included as a
+comment in the code section. Besides the commented in-code version of your header
+you will need to create an extra file "metainfo.txt", which will include a
+formatted version of your header. The formatted "metainfo.txt" will be
+used for data mining practices (e.g. Clustering, filtering
+and recommendation engines) and is therefore mandatory. In the next sections,
+you will find examples on how to format the "metainfo.txt"
 
 * __Code-Section:__ A correctly working code represents the second
 elementary part. The described functionality in the metainfo should
@@ -44,24 +46,24 @@ in other meta-info fields
 10. __Example__ - check whether there is appropriate info on the website.
 Should contain some new info, which is not written in other meta-info fields
 
-#### Example of complete and correct header
+#### Example of complete and correct "metainfo.txt"
 ```R
  
 Name of QuantLet:  MVAreturns
  
-Published in:  Applied Multivariate Statistical Analysis
+Published in:      Applied Multivariate Statistical Analysis
   
-Description:  Shows monthly returns of six US firms from Jan 2000 to Dec 2009.
+Description:       Shows monthly returns of six US firms from Jan 2000 to Dec 2009.
  
-Keywords:  financial, portfolio, returns, asset, time-series, plot
+Keywords:          financial, portfolio, returns, asset, time-series, plot
 
-See also:  MVAportfol_IBM_Ford, MVAportfol_IBM_PanAm
+See also:          MVAportfol_IBM_Ford, MVAportfol_IBM_PanAm
 
-Author:  Zografia Anastasiadou
+Author:            Zografia Anastasiadou
   
-Submitted:  Fri, August 05 2011 by Awdesch Melzer
+Submitted:         Fri, August 05 2011 by Awdesch Melzer
   
-Datafile:  apple.csv, bac.csv, ed.csv, ford.csv, ibm.csv, ms.csv
+Datafile:          apple.csv, bac.csv, ed.csv, ford.csv, ibm.csv, ms.csv
   
 Input:  
   
