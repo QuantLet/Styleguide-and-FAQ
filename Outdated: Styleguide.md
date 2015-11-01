@@ -47,21 +47,21 @@ Should contain some new info, which is not written in other meta-info fields
 #### Example of complete and correct header
 ```R
  
-Name of QuantLet:  
+Name of QuantLet:  MVAreturns
  
-Published in:  
+Published in:  Applied Multivariate Statistical Analysis
   
-Description:  
+Description:  Shows monthly returns of six US firms from Jan 2000 to Dec 2009.
  
-Keywords:  
+Keywords:  financial, portfolio, returns, asset, time-series, plot
 
-See also:  
+See also:  MVAportfol_IBM_Ford, MVAportfol_IBM_PanAm
 
-Author:  
+Author:  Zografia Anastasiadou
   
-Submitted:  
+Submitted:  Fri, August 05 2011 by Awdesch Melzer
   
-Datafile:  
+Datafile:  apple.csv, bac.csv, ed.csv, ford.csv, ibm.csv, ms.csv
   
 Input:  
   
