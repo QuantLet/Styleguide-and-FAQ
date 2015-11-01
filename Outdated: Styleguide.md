@@ -77,7 +77,7 @@ Example:
 ```
 You will only need to know two basic elements:
 
-1. If you write multiple lines you have to put it in ' '
+- If you write multiple lines you have to put it in ' '
 ```R
 ...
 Description:       'Shows monthly returns of six US firms
@@ -85,7 +85,7 @@ from Jan 2000 to Dec 2009.'
 ...
 ```
 
-2. YAML prohibits the use of special german characters like "ä, ö, ü".
+- YAML prohibits the use of special german characters like "ä, ö, ü".
 
 You can chack the complete [documentation](http://www.yaml.org/spec/1.2/spec.html).
 
