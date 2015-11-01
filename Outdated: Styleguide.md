@@ -78,11 +78,11 @@ Example:
 ```
 You will only need to know two basic elements:
 
-- If you write multiple lines you have to put it in ' '
+- If you write multiple lines you have to put your text in ' '
 ```R
 ...
 Description:       'Shows monthly returns of six US firms
-from Jan 2000 to Dec 2009.'
+                    from Jan 2000 to Dec 2009.'
 ...
 ```
 
