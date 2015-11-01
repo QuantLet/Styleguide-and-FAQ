@@ -46,6 +46,9 @@ in other meta-info fields
 10. __Example__ - check whether there is appropriate info on the website.
 Should contain some new info, which is not written in other meta-info fields
 
+#### We use 'YAML' to format metainfo.txt to make things easy and fast
+YAML™ (rhymes with “camel”) is a human-friendly, cross language, Unicode based data serialization language designed around the common native data types of agile programming languages. 
+
 #### Example of complete and correct "metainfo.txt"
 ```R
  
