@@ -56,7 +56,7 @@ YAML™ (rhymes with “camel”) is a human-friendly, cross language data seria
 #### Example of complete and correct "metainfo.txt" in YAML format
 ```yaml
  
-Name of QuantLet:  MVAreturns
+Name of Quantlet:  MVAreturns
  
 Published in:      Applied Multivariate Statistical Analysis
   
