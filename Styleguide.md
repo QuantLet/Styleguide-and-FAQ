@@ -54,7 +54,7 @@ Should contain some new info, which is not written in other meta-info fields
 YAML™ (rhymes with “camel”) is a human-friendly, cross language data serialization language. You will use it almost intuitively. 
 
 #### Example of complete and correct "metainfo.txt" in YAML format
-```R
+```yaml
  
 Name of QuantLet:  MVAreturns
  
@@ -91,7 +91,7 @@ Description:       'Shows monthly returns of six US firms
 
 - YAML prohibits the use of special german characters like "ä, ö, ü".
 
-You can chack the complete [documentation](http://www.yaml.org/spec/1.2/spec.html).
+You can check the complete [YAML documentation](http://www.yaml.org/spec/1.2/spec.html).
 
 ### Code
 
