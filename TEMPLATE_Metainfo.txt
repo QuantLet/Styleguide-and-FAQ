@@ -1,17 +1,17 @@
 
-Name of Quantlet: 
+Name of Quantlet: MUST NOT BE EMPTY!
 
-Published in: 
+Published in: MUST NOT BE EMPTY!
 
-Description: 
+Description: MUST NOT BE EMPTY!
 
-Keywords: 
+Keywords: MUST NOT BE EMPTY!
 
 See also: for listing related, similar Quantlets oder Github code from your point of you - delete if not used
 
-Author: 
+Author: SHOULD NOT BE EMPTY
 
-Submitted: 
+Submitted:  SHOULD NOT BE EMPTY
 
 Datafile: for your data sets - delete if not used
 
