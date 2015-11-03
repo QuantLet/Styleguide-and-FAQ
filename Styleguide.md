@@ -18,7 +18,9 @@ data serialization language. The formatted "metainfo.txt" will be used for
 [Visualization] (http://quantnet.wiwi.hu-berlin.de/d3/ia/) and
 data mining practices (e.g. Clustering, filtering and recommendation engines) 
 and is therefore mandatory. In the next sections,
-you will find examples on how to format the "metainfo.txt"
+you will find examples on how to format the "metainfo.txt".
+Here you can download the prepared TEMPLATE of a "metainfo.txt":
+https://github.com/QuantLet/Validation-procedure-and-Styleguide/blob/master/TEMPLATE_Metainfo.txt
 
 * __Quantletcode.r:__ The first section of your code will
 include the content of metainfo.txt as a comment. 
