@@ -22,13 +22,13 @@ you will find examples on how to format the "metainfo.txt".
 Here you can download the prepared TEMPLATE of a "metainfo.txt":
 [TEMPLATE_Metainfo.txt] (https://github.com/QuantLet/Validation-procedure-and-Styleguide/blob/master/TEMPLATE_Metainfo.txt)
 
-* __Quantletcode.r:__ The first section of your code will
-include the content of metainfo.txt as a comment. 
+* __Quantletcode.r:__ Your code doesn't need the commented meta information as header any more,
+once you have provided a complete "metainfo.txt" as explained before.
 Next, a correctly working code represents the second
 elementary part. The described functionality in the metainfo should
 practically be realizable by using the provided code. Besides correct 
 functionality the code needs to be formatted according to the provided 
-styleguide. Formatting ensures readability while comprehensibility is 
+style guide. Formatting ensures human readability while comprehensibility is 
 ensured by sufficient comments.
 
 ### Metainfo.txt
