@@ -9,12 +9,13 @@ are listed in the Appendix.
 
 ## Structure of a Quantlet Repository on Github
 
-Every Quantlet Repository consists of two elementary parts with equal relevance:
+Every Quantlet Repository consists of two elementary parts / files with equal relevance:
 * __Metainfo.txt:__ Contains Meta-Information about the functionality,
 origin and purpose. Furthermore, a list of keywords and references
 to other related Quantlets are stated. You will need to create the file 
 "metainfo.txt", which will be formatted in 'YAML', an easy and intuitive
 data serialization language. The formatted "metainfo.txt" will be used for 
+Visualization http://quantnet.wiwi.hu-berlin.de/d3/ia/ and
 data mining practices (e.g. Clustering, filtering and recommendation engines) 
 and is therefore mandatory. In the next sections,
 you will find examples on how to format the "metainfo.txt"
