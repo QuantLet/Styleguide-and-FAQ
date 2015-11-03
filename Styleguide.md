@@ -161,8 +161,7 @@ while (i<n){
 2. Check if MetaInfo is complete and that you have sufficient keywords from the [keyword list](http://quantnet.wiwi.hu-berlin.de/index.php?p=searchResults&w=allkeywords&sort=f) 
 
 ## Appendix
-Example's of correctly formatted Quantlets with all required meta-information
-
-1. http://quantnet.wiwi.hu-berlin.de/index.php?p=SFE_hq
-2. http://quantnet.wiwi.hu-berlin.de/index.php?p=SFS_hq
+Example's of correctly formatted Quantlets with all required meta-information:
+Pick out any of the "bubbles" in this [Visualization] (http://quantnet.wiwi.hu-berlin.de/d3/ia/),
+then click on it and examine the files in the shown GitHub-folder. In particular the related "metainfo.txt"
 
