@@ -1,6 +1,6 @@
 ![http://quantnet.wiwi.hu-berlin.de/style/banner.png](http://quantnet.wiwi.hu-berlin.de/style/banner.png)
 
-# <img src="pictures/githublogo.png" width="120" /> **Validation-procedure-and-Styleguide** ![qlogo](pictures/qloqo.png)
+# <img src="pictures/githublogo.png" width="80" /> **Validation-procedure-and-Styleguide** ![qlogo](pictures/qloqo.png)
 
 Validation procedure according to the styleguide
 
