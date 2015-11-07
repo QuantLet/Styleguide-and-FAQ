@@ -1,4 +1,6 @@
-# Styleguide of Quantlets
+![http://quantnet.wiwi.hu-berlin.de/style/banner.png](http://quantnet.wiwi.hu-berlin.de/style/banner.png)
+
+# <img src="pictures/githublogo.png" width="120" /> **Styleguide of Quantlets** ![qlogo](pictures/qloqo.png)
 
 The following pages will introduce the Styleguide of Quantlets. An overview 
 of the structure of a Quantlet is given and explaining each part's relevance.
