@@ -167,8 +167,19 @@ Besides the browser version of Github, there is also a desktop client for local 
 To find an appropriate client version for your operating system click [here](http://git-scm.com/download/gui/linux)
 
 ### Important to know
+#### How to clone repositories to your local pc
 
-### Upload pictures and datafiles as separate files
+#### Avoiding Sync-Errors
+
+1) synchronization : GitHub -> local
+
+2) make there the edit work (local)
+
+3) do commit within GitHubClient/SourceTree
+
+4) back synchronization : local -> GitHub
+
+#### Upload pictures and datafiles as separate files
 
 ## Final Check
 1. Check if your code runs properly and complies to the style requirements
