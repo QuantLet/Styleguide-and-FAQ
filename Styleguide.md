@@ -40,21 +40,21 @@ ensured by sufficient comments.
 
 ### Metainfo.txt
 #### Required Meta-Information
-1. __Name of Quantlet__ (e.g. SFEDAXlogreturns)
-2. __Published in__ Book / Paper
-3. __Description__ - at least 10 words; should begin with a verb and with capital letters, e.g.
+1. __Name of Quantlet__ : (e.g. SFEDAXlogreturns)
+2. __Published in__ : Book / Paper
+3. __Description__ : at least 10 words; should begin with a verb and with capital letters, e.g.
 "Plots the time series ..."
-4. __Keywords__ - at least 5 words (the more the merrier) from the [keyword list](http://quantnet.wiwi.hu-berlin.de/index.php?p=searchResults&w=allkeywords&sort=f) only
-4. __See also__ - mention related Quantlets
-5. __Author__ - check for existing authors on the [website](http://quantnet.hu-berlin.de/) [if new, than write [New]
+4. __Keywords__ : at least 5 words (the more the merrier) from the [keyword list](http://quantnet.wiwi.hu-berlin.de/index.php?p=searchResults&w=allkeywords&sort=f) only
+4. __See also__ : mention related Quantlets
+5. __Author__ : check for existing authors on the [website](http://quantnet.hu-berlin.de/) [if new, than write [New]
 in this field]
-6. __Submitted__ - state your name and the time of submission
-7. __Datafile__ - check whether all datafiles which are used in the code are listed here
-8. ___Input (optional)___ - Should contain some new info, which is not written 
+6. __Submitted__ : state your name and the time of submission
+7. __Datafile__ : check whether all datafiles which are used in the code are listed here
+8. ___Input (optional)___ : Should contain some new info, which is not written 
 in other meta-info fields
-9. ___Output (optional)___ - Should contain some new info, which is not written
+9. ___Output (optional)___ : Should contain some new info, which is not written
 in other meta-info fields
-10. __Example__ - check whether there is appropriate info on the website.
+10. __Example__ : check whether there is appropriate info on the website.
 Should contain some new info, which is not written in other meta-info fields
 
 #### We use 'YAML' to format metainfo.txt to make things easy and fast
