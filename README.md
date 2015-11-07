@@ -1,9 +1,7 @@
 ![http://quantnet.wiwi.hu-berlin.de/style/banner.png](http://quantnet.wiwi.hu-berlin.de/style/banner.png)
 
-# <img src="github_logo.png" width="120" /> **Git2Q3-Collaboration** ![qlogo](qloqo.png)![qlogo](qloqo.png)![qlogo](qloqo.png)
+# <img src="pictures/githublogo.png" width="120" /> **Validation-procedure-and-Styleguide** ![qlogo](pictures/qloqo.png)
 
-
-# Validation-procedure-and-Styleguide
 Validation procedure according to the styleguide
 
 This is a first draft of guideline for validators of QuantLet's.
