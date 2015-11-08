@@ -88,7 +88,7 @@ Example:
 ```
 You will only need to know two basic elements:
 
-- If you write multiple lines you have to put your text in ' '
+- If you write multiple lines you have to put your text in  ' '
 ```R
 ...
 Description:       'Shows monthly returns of six US firms
@@ -98,7 +98,7 @@ Description:       'Shows monthly returns of six US firms
 
 - YAML prohibits the use of special german characters like "ä, ö, ü".
 
-You can check the complete [YAML documentation](http://www.yaml.org/spec/1.2/spec.html).
+For further details please check the complete [YAML documentation](http://www.yaml.org/spec/1.2/spec.html).
 
 ### 1.2. Code
 
@@ -175,12 +175,14 @@ Before you can locally work on your desired repository you need to 'clone' it fi
 
 2) _Conduct local changes_ - Change/ add/ delete files
 
-3) _Commit_                - your conducted changes within your Github Desktop Client
+3) _Commit_                - Commit your conducted changes within your Github Desktop Client
 
 4) _Bach synchronization_  - Sync your local repository, so that changes are inherited in remote branch
 
 #### 2.3. Resolving Sync-Errors
-It might happen that you forget to synchronize your repository as prescribe which could lead to Sync-errors. If that has happened to you, following articles might help you:
+It might happen that you forget to synchronize your repository as prescribed which could lead to Sync-errors. If that has happened to you, you will have to work with the Gitshell commandline to solve this error.
+Following articles might help you with that:
+- [Git Documentation-Getting started](https://git-scm.com/videos)
 - [Dealing with non-fast-forward errors] (https://help.github.com/articles/dealing-with-non-fast-forward-errors/)
 
 #### 2.4. Upload pictures and datafiles as separate files
