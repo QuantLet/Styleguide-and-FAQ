@@ -168,18 +168,24 @@ To find an appropriate client version for your operating system click [here](htt
 
 ### Important to know
 #### How to clone repositories to your local pc
+Before you can locally work on your desired repository you need to 'clone' it first. This will create a local copy of the masterbranch on your local workspace. It now becomes critical to keep your local branch synced to any changes conducted to the remote master branch and vice versa. If you don't, you will encounter syncing errors due to differences between your local an the remote branch. We will now describe how to avoid this common error.
 
 #### Avoiding Sync-Errors
 
-1) synchronization : GitHub -> local
+1) _Local synchronization_ - Sync your local repository before beginning any work in that repository
 
-2) make there the edit work (local)
+2) _Conduct local changes_ - Change/ add/ delete files
 
-3) do commit within GitHubClient/SourceTree
+3) _Commit_                - your conducted changes within your Github Desktop Client
 
-4) back synchronization : local -> GitHub
+4) _Bach synchronization_  - Sync your local repository, so that changes are inherited in remote branch
+
+#### Resolving Sync-Errors
+It might happen that you forget to synchronize your repository as prescribe which could lead to Sync-errors. If that has happened to you, following articles might help you:
+- [Dealing with non-fast-forward errors] (https://help.github.com/articles/dealing-with-non-fast-forward-errors/)
 
 #### Upload pictures and datafiles as separate files
+You can easily add files to your local repositories which will be commited and therefore uploaded to the remote branch. Simply add pictures or datafiles to the desired local repository. If you have not specified a special directory upfront, the directory will most likely be C:\Users\Username\Documents\GitHub\Repository_xy.
 
 ## Final Check
 1. Check if your code runs properly and complies to the style requirements
