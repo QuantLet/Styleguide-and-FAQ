@@ -177,7 +177,7 @@ Before you can locally work on your desired repository you need to 'clone' it fi
 
 3) _Commit_                - Commit your conducted changes within your Github Desktop Client
 
-4) _Bach synchronization_  - Sync your local repository, so that changes are inherited in remote branch
+4) _Back synchronization_  - Sync your local repository, so that changes are inherited in remote branch
 
 #### 2.3. Resolving Sync-Errors
 It might happen that you forget to synchronize your repository as prescribed which could lead to Sync-errors. If that has happened to you, you will have to work with the Gitshell commandline to solve this error.
@@ -195,7 +195,7 @@ You can easily add files to your local repositories which will be commited and t
 ## 4. Appendix
 Example's of correctly formatted Quantlets with all required meta-information:
 Pick out any of the "bubbles" in this [Visualization] (http://quantnet.wiwi.hu-berlin.de/d3/ia/),
-then click on it and examine the files in the shown GitHub-folder. In particular the related "metainfo.txt"
+then click on it and examine the files in the shown GitHub-folder. In particular the related "metainfo.txt".
 
 Some Examples:
 
