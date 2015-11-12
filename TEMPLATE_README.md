@@ -3,6 +3,8 @@
 
 ## ![qlogo](http://quantnet.wiwi.hu-berlin.de/graphics/quantlogo.png) **<QNAME>**
 
+## ![qlogo](https://github.com/QuantLet/Styleguide-and-Validation-procedure/blob/master/pictures/qloqo.png) **<QNAME>**
+
 
 ```yaml
 <COPY_METAINFO>
