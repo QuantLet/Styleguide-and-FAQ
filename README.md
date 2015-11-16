@@ -32,3 +32,10 @@ __Important Rule II:__
 __Important Rule III:__
 - Avoid blanks in the repository names!
 - Avoid unnecessary special characters in the names of repositories, subfolders and Qs
+- In case of doubt use the underscore character "_"
+- Some Examples:
+  1. [big_data_analysis] (https://github.com/QuantLet/big_data_analysis)
+  2. [MMSTAT] (https://github.com/QuantLet/MMSTAT)
+  3. [Git2Q3-Collaboration] (https://github.com/QuantLet/Git2Q3-Collaboration)
+  
+  
