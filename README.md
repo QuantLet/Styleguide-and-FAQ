@@ -10,8 +10,10 @@ __This repository includes:__
   - [metainfo.txt](https://github.com/QuantLet/Validation-procedure-and-Styleguide/blob/master/TEMPLATE_Metainfo.txt)
   - [Readme.md](https://github.com/QuantLet/Validation-procedure-and-Styleguide/blob/master/TEMPLATE_README.md)
 
-
-__Important:__
+__Important I:__
+- Abbreviations
+  
+__Important II:__
 - Every Q has to be in its own subfolder in the repository. 
   - Reponame/Qfolder1/files of Q1
   - Reponame/Qfolder2/files of Q2
@@ -22,3 +24,7 @@ __Important:__
   1. [MSM] (https://github.com/QuantLet/MSM)
   2. [Psychological-diagnostics] (https://github.com/QuantLet/Psychological-diagnostics)
   3. [TimeVaryingPenalization] (https://github.com/QuantLet/TimeVaryingPenalization)
+
+__Important III:__
+- Avoid blanks in the repository names!
+- Avoid unnecessary special characters in the names of repositories, subfolders and Qs
