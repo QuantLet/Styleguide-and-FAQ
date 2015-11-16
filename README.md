@@ -33,9 +33,10 @@ __Important Rule III:__
 - Avoid blanks in the repository names!
 - Avoid unnecessary special characters in the names of repositories, subfolders and Qs
 - In case of doubt use the underscore character "_"
-- Some Examples:
+- Some good Examples:
   1. [big_data_analysis] (https://github.com/QuantLet/big_data_analysis)
   2. [MMSTAT] (https://github.com/QuantLet/MMSTAT)
   3. [Git2Q3-Collaboration] (https://github.com/QuantLet/Git2Q3-Collaboration)
-  
-  
+- Some bad Examples:
+  1. [lCARE-BTU-HU-] (https://github.com/QuantLet/lCARE-BTU-HU-)
+- Please note that repos with bad name notation will be excluded from final validation and importing into the [Visualization] (http://quantnet.wiwi.hu-berlin.de/d3/ia/). It's up to you to rename your repos accordingly.
