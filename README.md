@@ -6,7 +6,7 @@ __This repository includes:__
 - Styleguide of Quantlets for first submission - [Styleguide](https://github.com/QuantLet/Validation-procedure-and-Styleguide/blob/master/Styleguide.md)
 - Validation procedure for those who are assigned to quality assurance - [Validation procedure](https://github.com/QuantLet/Validation-procedure-and-Styleguide/blob/master/Validation_proc_v03.pdf)
 - Basic overview of organizational workflow of QuantLet - [Workflow](https://github.com/QuantLet/Styleguide-and-Validation-procedure/blob/master/Transition%20of%20Quantlets%20on%20Github.PNG)
-- Templates for mandatory files in every Quantlet repository:
+- Templates for mandatory files in every Quantlet subfolder:
   - [metainfo.txt](https://github.com/QuantLet/Validation-procedure-and-Styleguide/blob/master/TEMPLATE_Metainfo.txt)
   - [Readme.md](https://github.com/QuantLet/Validation-procedure-and-Styleguide/blob/master/TEMPLATE_README.md)
 
@@ -39,4 +39,4 @@ __Important Rule III:__
   3. [Git2Q3-Collaboration] (https://github.com/QuantLet/Git2Q3-Collaboration)
 - Some bad Examples:
   1. [lCARE-BTU-HU-] (https://github.com/QuantLet/lCARE-BTU-HU-)
-- Please note that repos with bad name notation will be excluded from final validation and importing into the [Visualization] (http://quantnet.wiwi.hu-berlin.de/d3/ia/). It's up to you to rename your repos accordingly.
+- Please note that repos with bad name notation will be excluded from final validation and importing into the [Visualization] (http://quantnet.wiwi.hu-berlin.de/d3/ia/). It's up to you to rename your repos accordingly. Actually, some special characters make the automatic processing impossible.
