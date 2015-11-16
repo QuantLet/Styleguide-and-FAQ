@@ -12,3 +12,8 @@ __This repository includes:__
 
 
 __Important:__
+- Every Q has to be in its own subfolder in the repository. 
+  - Reponame/Qfolder1/files of Q1
+  - Reponame/Qfolder2/files of Q2
+  - Reponame/Qfolder3/files of Q3
+  
