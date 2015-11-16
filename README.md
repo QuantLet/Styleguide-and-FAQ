@@ -1,4 +1,4 @@
-![http://quantnet.wiwi.hu-berlin.de/style/banner.png](http://quantnet.wiwi.hu-berlin.de/style/banner.png)
+![Q_banner](https://github.com/QuantLet/Styleguide-and-Validation-procedure/blob/master/pictures/banner.png)
 
 # <img src="pictures/githublogo.png" width="80" /> **Styleguide and Validation-procedure** ![qlogo](pictures/qloqo.png)
 
@@ -10,3 +10,5 @@ __This repository includes:__
   - [metainfo.txt](https://github.com/QuantLet/Validation-procedure-and-Styleguide/blob/master/TEMPLATE_Metainfo.txt)
   - [Readme.md](https://github.com/QuantLet/Validation-procedure-and-Styleguide/blob/master/TEMPLATE_README.md)
 
+
+__Important:__
