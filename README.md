@@ -17,3 +17,8 @@ __Important:__
   - Reponame/Qfolder2/files of Q2
   - Reponame/Qfolder3/files of Q3
   
+Some Examples:
+
+1. [MSM] (https://github.com/QuantLet/MSM)
+2. [Psychological-diagnostics] (https://github.com/QuantLet/Psychological-diagnostics)
+3. [TimeVaryingPenalization] (https://github.com/QuantLet/TimeVaryingPenalization)
