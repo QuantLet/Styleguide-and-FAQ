@@ -10,10 +10,14 @@ __This repository includes:__
   - [metainfo.txt](https://github.com/QuantLet/Validation-procedure-and-Styleguide/blob/master/TEMPLATE_Metainfo.txt)
   - [Readme.md](https://github.com/QuantLet/Validation-procedure-and-Styleguide/blob/master/TEMPLATE_README.md)
 
-__Important I:__
+__Important Rule I:__
 - Abbreviations
+  - Q = Quantlet
+  - QNet = Quantnet
+  - repo = repository
+  - GH = GitHub
   
-__Important II:__
+__Important Rule II:__
 - Every Q has to be in its own subfolder in the repository. 
   - Reponame/Qfolder1/files of Q1
   - Reponame/Qfolder2/files of Q2
@@ -25,6 +29,6 @@ __Important II:__
   2. [Psychological-diagnostics] (https://github.com/QuantLet/Psychological-diagnostics)
   3. [TimeVaryingPenalization] (https://github.com/QuantLet/TimeVaryingPenalization)
 
-__Important III:__
+__Important Rule III:__
 - Avoid blanks in the repository names!
 - Avoid unnecessary special characters in the names of repositories, subfolders and Qs
