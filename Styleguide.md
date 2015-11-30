@@ -1,25 +1,25 @@
 ![http://quantnet.wiwi.hu-berlin.de/style/banner.png](http://quantnet.wiwi.hu-berlin.de/style/banner.png)
 
-# <img src="pictures/githublogo.png" width="120" /> **Styleguide of Quantlets** ![qlogo](pictures/qloqo.png)
+# <img src="pictures/githublogo.png" width="120" /> **Styleguide of QuantLets** ![qlogo](pictures/qloqo.png)
 
 
-The following pages will introduce the Styleguide of Quantlets. An overview 
-of the structure of a Quantlet is given and explaining each part's relevance.
+The following pages will introduce the Styleguide of QuantLets. An overview 
+of the structure of a QuantLet is given and explaining each part's relevance.
 You will find descriptions and instructions on how to format your 
 code as well as detailed examples about the required information 
-around your Quantlet. 
+around your QuantLet. 
 
 In the second section you will find basic instructions on how to work with the desktop client version of Github, which includes additional features to upload pictures and datafiles as separate files.
 
-Finally, several illustrative examples of correct Quantlets
+Finally, several illustrative examples of correct QuantLets
 are listed in the Appendix.
 
-## 1. Structure of a Quantlet Repository on Github
+## 1. Structure of a QuantLet Repository on Github
 
-Every Quantlet Repository consists of two elementary parts / files with equal relevance:
+Every QuantLet Repository consists of two elementary parts / files with equal relevance:
 * __Metainfo.txt:__ Contains Meta-Information about the functionality,
 origin and purpose. Furthermore, a list of keywords and references
-to other related Quantlets are stated. You will need to create the file 
+to other related QuantLets are stated. You will need to create the file 
 "metainfo.txt", which will be formatted in 'YAML', an easy and intuitive
 data serialization language. The formatted "metainfo.txt" will be used for 
 [Visualization] (http://quantnet.wiwi.hu-berlin.de/d3/ia/) and
@@ -29,7 +29,7 @@ you will find examples on how to format the "metainfo.txt".
 Here you can download the prepared TEMPLATE of a "metainfo.txt":
 [TEMPLATE_Metainfo.txt] (https://github.com/QuantLet/Validation-procedure-and-Styleguide/blob/master/TEMPLATE_Metainfo.txt)
 
-* __Quantletcode.r:__ Your code doesn't need the commented meta information as header any more,
+* __QuantLetcode.r:__ Your code doesn't need the commented meta information as header any more,
 once you have provided a complete "metainfo.txt" as explained before.
 Next, a correctly working code represents the second
 elementary part. The described functionality in the metainfo should
@@ -39,31 +39,35 @@ styleguide. Formatting ensures human readability while comprehensibility is
 ensured by sufficient comments.
 
 ### 1.1. Metainfo.txt
-#### Required Meta-Information
-1. __Name of Quantlet__ : (e.g. SFEDAXlogreturns)
+#### Required and optional Meta-Information
+
+1. __Name of QuantLet__ : e.g. SFEDAXlogreturns (Omit endings like .r .sas or .m)
 2. __Published in__ : Book / Paper
 3. __Description__ : at least 10 words; should begin with a verb and with capital letters, e.g.
 "Plots the time series ..."
 4. __Keywords__ : at least 5 words (the more the merrier) from the [keyword list](http://quantnet.wiwi.hu-berlin.de/index.php?p=searchResults&w=allkeywords&sort=f) only
-4. __See also__ : mention related Quantlets
+4. __See also (optional)__ : mention related QuantLets
 5. __Author__ : check for existing authors on the [website](http://quantnet.hu-berlin.de/) [if new, then write [New]
 in this field]
-6. __Submitted__ : state your name and the time of submission
+6. __Submitted (optional)__ : state your name and the time of submission
 7. __Datafile__ : check whether all datafiles which are used in the code are listed here
 8. ___Input (optional)___ : Should contain some new info, which is not written 
 in other meta-info fields
 9. ___Output (optional)___ : Should contain some new info, which is not written
 in other meta-info fields
-10. __Example__ : check whether there is appropriate info on the website.
-Should contain some new info, which is not written in other meta-info fields
+10. __Example (optional)__  : Should contain a list of generated plots and description, which is not written in other meta-info fields
+
+Make sure that the provided 'Name of QuantLet' and the actual filename of your provided Codefile is identical.
+
 
 #### We use 'YAML' to format metainfo.txt to make things easy and fast
 YAML™ (rhymes with “camel”) is a human-friendly, cross language data serialization language. You will use it almost intuitively. Thanks to 'YAML', there is no need to use the #-Symbol in the metainfo.txt anymore. It is even robust against redundant space in description parts although we advise to avoid these. Besides that, there are alternative ways on how to structure enumerations in a YAML-File.
 
 #### Example of complete and correct "metainfo.txt" in YAML format
+
 ```yaml
  
-Name of Quantlet:  MVAreturns
+Name of QuantLet:  MVAreturns
  
 Published in:      Applied Multivariate Statistical Analysis
   
@@ -75,7 +79,7 @@ See also:          MVAportfol_IBM_Ford, MVAportfol_IBM_PanAm
 
 Author:            Zografia Anastasiadou
   
-Submitted:         Fri, August 05 2011 by Awdesch Melzer
+Submitted (optional):         Fri, August 05 2011 by Awdesch Melzer
   
 Datafile:          apple.csv, bac.csv, ed.csv, ford.csv, ibm.csv, ms.csv
   
@@ -87,7 +91,11 @@ Example:
   
 ```
 
-- The colon ':' separates the data field (left) from its description (right)
+- The colon ' : ' separates the data field (left) from its description (right)
+
+- _Optional_ data fields, where no description is provided can be omitted completely (Above example includes them for illustration purposes anyway). 
+
+- 
 
 - If you write multiple lines or use special characters you have to put your text in single quotes  ' '. For single lines without special characters there is no need to do so. 
 ```R
@@ -209,7 +217,7 @@ You can easily add files to your local repositories which will be commited and t
 2. Check if MetaInfo is complete and that you have sufficient keywords from the [keyword list](http://quantnet.wiwi.hu-berlin.de/index.php?p=searchResults&w=allkeywords&sort=f) 
 
 ## 4. Appendix
-Example's of correctly formatted Quantlets with all required meta-information:
+Example's of correctly formatted QuantLets with all required meta-information:
 Pick out any of the "bubbles" in this [Visualization] (http://quantnet.wiwi.hu-berlin.de/d3/ia/),
 then click on it and examine the files in the shown GitHub-folder. In particular the related "metainfo.txt".
 
