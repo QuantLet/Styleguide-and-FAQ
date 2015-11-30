@@ -35,7 +35,7 @@ Next, a correctly working code represents the second
 elementary part. The described functionality in the metainfo should
 practically be realizable by using the provided code. Besides correct 
 functionality the code needs to be formatted according to the provided 
-style guide. Formatting ensures human readability while comprehensibility is 
+styleguide. Formatting ensures human readability while comprehensibility is 
 ensured by sufficient comments.
 
 ### 1.1. Metainfo.txt
@@ -58,7 +58,7 @@ in other meta-info fields
 Should contain some new info, which is not written in other meta-info fields
 
 #### We use 'YAML' to format metainfo.txt to make things easy and fast
-YAML™ (rhymes with “camel”) is a human-friendly, cross language data serialization language. You will use it almost intuitively. 
+YAML™ (rhymes with “camel”) is a human-friendly, cross language data serialization language. You will use it almost intuitively. Thanks to 'YAML', there is no need to use the #-Symbol in the metainfo.txt anymore. It is even robust against redundant space in description parts although we advise to avoid these. Besides that, there are alternative ways on how to structure enumerations in a YAML-File.
 
 #### Example of complete and correct "metainfo.txt" in YAML format
 ```yaml
@@ -86,9 +86,10 @@ Output:
 Example:  
   
 ```
-You will only need to know two basic elements:
 
-- If you write multiple lines you have to put your text in  ' '
+- The colon ':' separates the data field (left) from its description (right)
+
+- If you write multiple lines or use special characters you have to put your text in single quotes  ' '. For single lines without special characters there is no need to do so. 
 ```R
 ...
 Description:       'Shows monthly returns of six US firms
@@ -96,7 +97,22 @@ Description:       'Shows monthly returns of six US firms
 ...
 ```
 
-- YAML prohibits the use of special german characters like "ä, ö, ü".
+#### Alternative ways of enumerations in metainfo.txt
+As mentioned above, there are different ways you can structure enumerations in 'YAML'.
+Below you find the two possible alternatives:
+```yaml
+...
+Keywords:          financial, portfolio, returns, asset, time-series, plot
+...
+Keywords:          
+- financial
+- portfolio
+- returns
+- asset
+- time-series
+- plot
+
+```
 
 For further details please check the complete [YAML documentation](http://www.yaml.org/spec/1.2/spec.html).
 
@@ -167,7 +183,7 @@ Besides the browser version of Github, there is also a desktop client for local 
 To find an appropriate client version for your operating system click [here](http://git-scm.com/download/gui/linux)
 
 #### 2.1. How to clone repositories to your local pc
-Before you can locally work on your desired repository you need to 'clone' it first. This will create a local copy of the masterbranch on your local workspace. It now becomes critical to keep your local branch synced to any changes conducted to the remote master branch and vice versa. If you don't, you will encounter syncing errors due to differences between your local an the remote branch. We will now describe how to avoid this common error.
+Before you can locally work on your desired repository you need to 'clone' it first. This will create a local copy of the masterbranch on your local workspace. It now becomes critical to keep your local branch synced to any changes conducted to the remote master branch and vice versa. If you don't, you will encounter syncing errors due to differences between your local and the remote branch. We will now describe how to avoid this common error.
 
 #### 2.2. Avoiding Sync-Errors
 
