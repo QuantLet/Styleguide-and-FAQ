@@ -60,8 +60,8 @@ in other meta-info fields
 Make sure that the provided 'Name of QuantLet' and the actual filename of your provided Codefile is identical.
 
 
-#### We use 'YAML' to format metainfo.txt to make things easy and fast
-YAML™ (rhymes with “camel”) is a human-friendly, cross language data serialization language. You will use it almost intuitively. Thanks to 'YAML', there is no need to use the #-Symbol in the metainfo.txt anymore. It is even robust against redundant space in description parts although we advise to avoid these. Besides that, there are alternative ways on how to structure enumerations in a YAML-File.
+#### We use YAML to format metainfo.txt to make things easy and fast
+YAML™ (rhymes with “camel”) is a human-friendly, cross language data serialization language. You will use it almost intuitively. Thanks to YAML, there is no need to use the #-Symbol in the metainfo.txt anymore. It is even robust against redundant space in description parts although we advise to avoid these. Besides that, there are alternative ways on how to structure enumerations in a YAML-File.
 
 #### Example of complete and correct "metainfo.txt" in YAML format
 
@@ -104,7 +104,7 @@ Description:       'Shows monthly returns of six US firms
 ```
 
 #### Alternative ways of enumerations in metainfo.txt
-As mentioned above, there are different ways you can structure enumerations in 'YAML'.
+As mentioned above, there are different ways you can structure enumerations in YAML.
 Below you find the two possible alternatives:
 ```yaml
 ...
