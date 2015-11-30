@@ -6,9 +6,9 @@ __This repository includes:__
 - Styleguide of Quantlets for first submission - [Styleguide](https://github.com/QuantLet/Validation-procedure-and-Styleguide/blob/master/Styleguide.md)
 - Validation procedure for those who are assigned to quality assurance - [Validation procedure](https://github.com/QuantLet/Styleguide-and-Validation-procedure/blob/master/Validation%20procedure.pdf)
 - Basic overview of organizational workflow of QuantLet - [Workflow](https://github.com/QuantLet/Styleguide-and-Validation-procedure/blob/master/Transition%20of%20Quantlets%20on%20Github.PNG)
-- Templates for mandatory files in every Quantlet subfolder:
-  - [metainfo.txt](https://github.com/QuantLet/Validation-procedure-and-Styleguide/blob/master/TEMPLATE_Metainfo.txt)
-  - [Readme.md](https://github.com/QuantLet/Validation-procedure-and-Styleguide/blob/master/TEMPLATE_README.md)
+- Template for mandatory file in every QuantLet repository:
+ - [metainfo.txt](https://github.com/QuantLet/Validation-procedure-and-Styleguide/blob/master/TEMPLATE_Metainfo.txt)
+Please format the content of metainfo.txt according to YAML as described in the Styleguide. Thanks to that format we are able to automatically provide a standardized Readme.md to your repository.
 
 __Important Rule I:__
 - Abbreviations
