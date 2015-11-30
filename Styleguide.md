@@ -79,7 +79,7 @@ See also:          MVAportfol_IBM_Ford, MVAportfol_IBM_PanAm
 
 Author:            Zografia Anastasiadou
   
-Submitted (optional):         Fri, August 05 2011 by Awdesch Melzer
+Submitted:         Fri, August 05 2011 by Awdesch Melzer
   
 Datafile:          apple.csv, bac.csv, ed.csv, ford.csv, ibm.csv, ms.csv
   
@@ -94,8 +94,6 @@ Example:
 - The colon ' : ' separates the data field (left) from its description (right)
 
 - _Optional_ data fields, where no description is provided can be omitted completely (Above example includes them for illustration purposes anyway). 
-
-- 
 
 - If you write multiple lines or use special characters you have to put your text in single quotes  ' '. For single lines without special characters there is no need to do so. 
 ```R
