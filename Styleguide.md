@@ -129,19 +129,20 @@ You can easily preprocess your code with the FormatR package. This will
 do 80% of the work for you. In the following you will find instructions on how to execute the relevant
 function.
 
-----------------------------------------------------------  
-```R
-# Cleaning up the source code in an R script file "input.R",  
+
 <!---# Indentation is set to two space characters and maximum line width is 80 characters.--->
-# The formatted code will be written into the new script file "output.R"
-
 tidy_source(source = "input.R", indent = 2, width.cutoff = 80, file = "output.R")
-
-# similar to the previous example, but using the clipboard instead of an input file
-
 tidy_source(indent = 2, width.cutoff = 80, file = "output.R")
 
-# when omitting function parameters the defaults
+----------------------------------------------------------
+```R
+# Cleaning up the source code in an R script file "input.R",  
+# The formatted code will be written into the new script file "output.R"
+
+tidy_source(source = "input.R", file = "output.R")
+
+# Similar to the previous example, but using the clipboard instead of an input file.
+# When omitting function parameters the defaults
 # indent = 4 and width. cutoff = 80 are being used.
 # For simplicity, we recommend these for the use on QuantNet
 
