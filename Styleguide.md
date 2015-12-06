@@ -129,11 +129,6 @@ You can easily preprocess your code with the FormatR package. This will
 do 80% of the work for you. In the following you will find instructions on how to execute the relevant
 function.
 
-
-<!---# Indentation is set to two space characters and maximum line width is 80 characters.--->
-tidy_source(source = "input.R", indent = 2, width.cutoff = 80, file = "output.R")
-tidy_source(indent = 2, width.cutoff = 80, file = "output.R")
-
 ----------------------------------------------------------
 ```R
 # Cleaning up the source code in an R script file "input.R",  
