@@ -132,7 +132,7 @@ function.
 ----------------------------------------------------------  
 ```R
 # Cleaning up the source code in an R script file "input.R",  
-[//]# Indentation is set to two space characters and maximum line width is 80 characters.
+<!---# Indentation is set to two space characters and maximum line width is 80 characters.--->
 # The formatted code will be written into the new script file "output.R"
 
 tidy_source(source = "input.R", indent = 2, width.cutoff = 80, file = "output.R")
