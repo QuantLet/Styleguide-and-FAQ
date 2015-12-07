@@ -125,7 +125,7 @@ Germany (blue), France (black), Italy (green) and Sweden (grey).'
 
 ```
 
-This notation is accepted by the YAML parser.
+This notation (with special characters) is accepted by the YAML parser.
 
 ```yaml
 
@@ -136,7 +136,7 @@ Germany (blue), France (black), Italy (green) and Sweden (grey).
 
 ```
 
-This notation results to a YAML parser error.
+This notation (with special characters) results to a YAML parser error.
 
 
 #### Alternative ways of enumerations in metainfo.txt
