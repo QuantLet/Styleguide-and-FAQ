@@ -97,6 +97,7 @@ Example:
 - _Optional_ data fields, where no description is provided can be omitted completely (Above example includes them for illustration purposes anyway). 
 
 - If you write multiple lines or use special characters you have to put your text in single quotes  ' '. For single lines without special characters there is no need to do so. Characters like {_, -, :, ", ...} are meant to be special characters. In case of doubt simply put your text in single quotes ' '. 
+
 ```yaml
 
 ...
@@ -113,6 +114,26 @@ Description:       'Shows monthly returns of six US firms from Jan 2000 to Dec 2
 ```
 
 All of these 3 notations are accepted by YAML.
+
+```yaml
+
+...
+
+Example : 'The comparison of estimated IE forecast across five different countries - U.K. (red), 
+Germany (blue), France (black), Italy (green) and Sweden (grey).'
+
+...
+
+```
+
+```yaml
+
+...
+
+Example : The comparison of estimated IE forecast across five different countries - U.K. (red), 
+Germany (blue), France (black), Italy (green) and Sweden (grey).
+
+```
 
 #### Alternative ways of enumerations in metainfo.txt
 As mentioned above, there are different ways you can structure enumerations in YAML.
