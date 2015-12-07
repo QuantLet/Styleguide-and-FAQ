@@ -101,15 +101,13 @@ Example:
 ```yaml
 
 ...
-
 Description:       Shows monthly returns of six US firms from Jan 2000 to Dec 2009.
-
 ...
 Description:       'Shows monthly returns of six US firms
                     from Jan 2000 to Dec 2009.'
 ...
-
 Description:       'Shows monthly returns of six US firms from Jan 2000 to Dec 2009.'
+...
 
 ```
 
@@ -118,22 +116,25 @@ All of these 3 notations are accepted by YAML.
 ```yaml
 
 ...
-
 Example : 'The comparison of estimated IE forecast across five different countries - U.K. (red), 
 Germany (blue), France (black), Italy (green) and Sweden (grey).'
-
 ...
 
 ```
+
+This notation is accepted by the YAML parser.
 
 ```yaml
 
 ...
-
 Example : The comparison of estimated IE forecast across five different countries - U.K. (red), 
 Germany (blue), France (black), Italy (green) and Sweden (grey).
+...
 
 ```
+
+This notation results to a YAML parser error.
+
 
 #### Alternative ways of enumerations in metainfo.txt
 As mentioned above, there are different ways you can structure enumerations in YAML.
