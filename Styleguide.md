@@ -103,15 +103,18 @@ Example:
 ...
 Description:       Shows monthly returns of six US firms from Jan 2000 to Dec 2009.
 ...
+Description:       'Shows monthly returns of six US firms from Jan 2000 to Dec 2009.'
+...
 Description:       'Shows monthly returns of six US firms
                     from Jan 2000 to Dec 2009.'
 ...
-Description:       'Shows monthly returns of six US firms from Jan 2000 to Dec 2009.'
+Description:       'Shows monthly returns of six US firms
+from Jan 2000 to Dec 2009.'
 ...
 
 ```
 
-All of these 3 notations are accepted by YAML.
+All of these 4 notations are accepted by YAML.
 
 ```yaml
 
