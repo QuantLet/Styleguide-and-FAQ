@@ -96,7 +96,7 @@ Example:
 
 - _Optional_ data fields, where no description is provided can be omitted completely (Above example includes them for illustration purposes anyway). 
 
-- If you write multiple lines or use special characters you have to put your text in single quotes  ' '. For single lines without special characters there is no need to do so. 
+- If you write multiple lines or use special characters you have to put your text in single quotes  ' '. For single lines without special characters there is no need to do so. Characters like {_, -, :, ", ...} are meant to be special characters. In case of doubt simply put your text in single quotes ' '. 
 ```R
 ...
 Description:       'Shows monthly returns of six US firms
