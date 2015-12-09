@@ -149,7 +149,7 @@ corrected contingency correlation and Cramer''s V.'
 ...
 
 ```
-How to include the apostrophe character inside your text. Very important: use TWO single quote signs (Type ', Type ') and NOT ONE double quote sign(Type "), because the both ways look nearly the same !
+How to include the apostrophe character inside your text. Very important: use TWO single quote signs (Type ', Type ') and NOT ONE double quote sign (Type "), because the both ways look nearly the same!
 After the parsing process this notation is automatically converted to the proper representation of the apostrophe character.
 
 #### Alternative ways of enumerations in metainfo.txt
