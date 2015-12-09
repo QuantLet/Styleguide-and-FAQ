@@ -140,6 +140,17 @@ Germany (blue), France (black), Italy (green) and Sweden (grey).
 
 This notation (with special characters and multiple lines) results to a YAML parser error.
 
+```yaml
+
+...
+Description : 'Computes a contingency table. Additionally, four different 
+correlation measures can be given: Chi-square, contingency  correlation,
+corrected contingency correlation and Cramer''s V.
+...
+
+```
+How to include the apostrophe character inside your text. Very important: use TWO single quotes signs ('') and NOT ONE double quote sign(") !
+
 
 #### Alternative ways of enumerations in metainfo.txt
 As mentioned above, there are different ways you can structure enumerations in YAML.
