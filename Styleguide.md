@@ -98,7 +98,7 @@ Example:
 
 - If you write multiple lines or use special characters you have to put your text in single quotes  'Your text'. For single lines without special characters there is no need to do so. Characters like {_, -, :, ", ...} are meant to be special characters. In case of doubt simply put your text in single quotes. 
 
-- Of you want to use the apostrophe character <'> represented by the single quote sign inside your text just type the single quote sign twice.
+- If you want to use the apostrophe character <'> (represented by the single quote sign) inside your text just type the single quote sign twice.
 
 ```yaml
 
