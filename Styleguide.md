@@ -145,7 +145,7 @@ This notation (with special characters and multiple lines) results to a YAML par
 ...
 Description : 'Computes a contingency table. Additionally, four different 
 correlation measures can be given: Chi-square, contingency  correlation,
-corrected contingency correlation and Cramer''s V.
+corrected contingency correlation and Cramer''s V.'
 ...
 
 ```
