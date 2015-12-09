@@ -150,7 +150,7 @@ corrected contingency correlation and Cramer''s V.'
 
 ```
 How to include the apostrophe character inside your text. Very important: use TWO single quotes signs ('') and NOT ONE double quote sign(") !
-
+After the parsing process this notation is automatically converted to the proper representation of the apostrophe character.
 
 #### Alternative ways of enumerations in metainfo.txt
 As mentioned above, there are different ways you can structure enumerations in YAML.
