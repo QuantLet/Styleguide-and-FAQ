@@ -5,7 +5,7 @@
 
 __This repository includes:__
 - Styleguide of Quantlets for first submission - [Styleguide](https://github.com/QuantLet/Validation-procedure-and-Styleguide/blob/master/Styleguide.md)
-- Frequently Asked Questions(FAQ) - https://github.com/QuantLet/Styleguide-and-Q-A/wiki
+- Frequently Asked Questions - [FAQ](https://github.com/QuantLet/Styleguide-and-Q-A/wiki)
 - Basic overview of organizational workflow of QuantLet - [Workflow](https://github.com/QuantLet/Styleguide-and-Validation-procedure/blob/master/Transition%20of%20Quantlets%20on%20Github.PNG)
 - Template for mandatory file in every QuantLet repository:
  - [metainfo.txt](https://github.com/QuantLet/Validation-procedure-and-Styleguide/blob/master/TEMPLATE_Metainfo.txt)
