@@ -172,6 +172,16 @@ Keywords:
 - plot
 
 ```
+In many cases, the datafields "Input" and "Output" require you to add an additional description to your enumerated items. You can do this by using following syntax:
+```yaml
+...
+Input:   
+- t : time points
+
+Output:   
+- k : kernel function
+...
+```
 
 For further details please check the complete [YAML documentation](http://www.yaml.org/spec/1.2/spec.html).
 
