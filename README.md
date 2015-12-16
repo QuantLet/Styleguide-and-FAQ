@@ -4,7 +4,7 @@
 # <img src="pictures/githublogo.png" width="120" /> **Styleguide and FAQ** [<img src="https://github.com/QuantLet/Styleguide-and-Validation-procedure/blob/master/pictures/qloqo.png" alt="Visit QuantNet">](http://quantlet.de/)[<img src="https://github.com/QuantLet/Styleguide-and-Validation-procedure/blob/master/pictures/QN2.png" width="60" alt="Visit QuantNet 2.0">](http://quantlet.de/d3/ia)
 
 
-## Build software better, together (QuantNet 2.0 @ GitHub)
+## Build software better, together, now (QuantNet 2.0 @ GitHub)
 <img src="pictures/RapidPrototyping.png" width="880" />
 
 
