@@ -5,7 +5,7 @@
 
 
 ## Build software better, together, now (QuantNet 2.0 @ GitHub)
-<img src="pictures/RapidPrototyping.png" width="880" />
+<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/RapidPrototyping.png" width="880" />
 
 
 __This repository includes:__
