@@ -183,7 +183,7 @@ Output:
 ...
 ```
 
-For further details please check the complete [YAML documentation](http://www.yaml.org/spec/1.2/spec.html).
+For further details please check the complete [YAML documentation](http://www.yaml.org/spec/1.2/spec.html) or find additional information in our [FAQ section](https://github.com/QuantLet/Styleguide-and-FAQ/wiki/03_Questions:-YAML)
 
 ### 1.2. Code
 
