@@ -4,13 +4,13 @@
 # <img src="pictures/githublogo.png" width="120" /> **Styleguide of QuantLets** [<img src="https://github.com/QuantLet/Styleguide-and-Validation-procedure/blob/master/pictures/qloqo.png" alt="Visit QuantNet">](http://quantlet.de/)[<img src="https://github.com/QuantLet/Styleguide-and-Validation-procedure/blob/master/pictures/QN2.png" width="60" alt="Visit QuantNet 2.0">](http://quantlet.de/d3/ia)
 
 
-The following pages will introduce the Styleguide of QuantLets. An overview 
-of the structure of a QuantLet is given and explaining each part's relevance.
+The following pages will introduce the Styleguide of Quantlets (Qs). An overview 
+of the structure of a Q is given while explaining each part's relevance.
 You will find descriptions and instructions on how to format your 
 code as well as detailed examples about the required information 
-around your QuantLet. 
+for your Q. 
 
-In the second section you will find basic instructions on how to work with the desktop client version of Github, which includes additional features to upload pictures and datafiles as separate files.
+In the second section you will find basic instructions on how to work with the desktop client version of Github, which includes additional features to upload pictures and datafiles as separate files to your Q's repository.
 
 Finally, several illustrative examples of correct QuantLets
 are listed in the Appendix.
@@ -18,26 +18,25 @@ are listed in the Appendix.
 ## 1. Structure of a QuantLet Repository on Github
 
 Every QuantLet Repository consists of two elementary parts / files with equal relevance:
-* __Metainfo.txt:__ Contains Meta-Information about the functionality,
-origin and purpose. Furthermore, a list of keywords and references
+* __Metainfo.txt:__ Contains meta-information about the functionality,
+origin and purpose of your Q. Furthermore, lists of keywords and references
 to other related QuantLets are stated. You will need to create the file 
-"metainfo.txt", which will be formatted in 'YAML', an easy and intuitive
+"metainfo.txt", which will be formatted in 'YAML' an easy and intuitive
 data serialization language. The formatted "metainfo.txt" will be used for 
 [Visualization] (http://quantnet.wiwi.hu-berlin.de/d3/ia/) and
 data mining practices (e.g. Clustering, filtering and recommendation engines) 
-and is therefore mandatory. In the next sections,
+and is therefore _mandatory_. In the next sections,
 you will find examples on how to format the "metainfo.txt".
-Here you can download the prepared TEMPLATE of a "metainfo.txt":
-[TEMPLATE_Metainfo.txt] (https://github.com/QuantLet/Validation-procedure-and-Styleguide/blob/master/TEMPLATE_Metainfo.txt)
+You can download the prepared
+[TEMPLATE_Metainfo.txt here.] (https://github.com/QuantLet/Validation-procedure-and-Styleguide/blob/master/TEMPLATE_Metainfo.txt)
 
-* __QuantLetcode.r:__ Your code doesn't need the commented meta information as header any more,
-once you have provided a complete "metainfo.txt" as explained before.
-Next, a correctly working code represents the second
-elementary part. The described functionality in the metainfo should
+* __QuantLetcode.r:__ 
+A correctly working code represents the second
+elementary part. The described functionality in the metainfo.txt should
 practically be realizable by using the provided code. Besides correct 
-functionality the code needs to be formatted according to the provided 
+functionality the code needs to be formatted according to the here provided 
 styleguide. Formatting ensures human readability while comprehensibility is 
-ensured by sufficient comments.
+ensured by sufficient and precise comments.
 
 ### 1.1. Metainfo.txt
 #### Required and optional Meta-Information
@@ -48,21 +47,21 @@ ensured by sufficient comments.
 "Plots the time series ..."
 4. __Keywords__ : at least 5 words (the more the merrier) from the [keyword list](http://quantnet.wiwi.hu-berlin.de/index.php?p=searchResults&w=allkeywords&sort=f) only
 4. __See also (optional)__ : mention related QuantLets
-5. __Author__ : check for existing authors on the [website](http://quantnet.hu-berlin.de/) [if new, then write [New]
+5. __Author__ : check for existing authors on the [website](http://quantnet.hu-berlin.de/) [if new, then write [New] + Author
 in this field]
-6. __Submitted (optional)__ : state your name and the time of submission
+6. __Submitted (optional)__ : state the name and the time of the original submission
 7. __Datafile__ : check whether all datafiles which are used in the code are listed here
 8. ___Input (optional)___ : Should contain some new info, which is not written 
-in other meta-info fields
+in other metainfo fields
 9. ___Output (optional)___ : Should contain some new info, which is not written
-in other meta-info fields
-10. __Example (optional)__  : Should contain a list of generated plots and description, which is not written in other meta-info fields
+in other metainfo fields
+10. __Example (optional)__  : Should contain a list of generated plots and descriptions, which are not written in other metainfo fields
 
-Make sure that the provided 'Name of QuantLet' and the actual filename of your provided Codefile is identical.
+_Important_: Make sure that the provided 'Name of QuantLet' and the actual filename of your provided Codefile is identical.
 
 
 #### We use YAML to format metainfo.txt to make things easy and fast
-YAML™ (rhymes with “camel”) is a human-friendly, cross language data serialization language. You will use it almost intuitively. Thanks to YAML, there is no need to use the #-Symbol in the metainfo.txt anymore. It is even robust against redundant space in description parts although we advise to avoid these. Besides that, there are alternative ways on how to structure enumerations in a YAML-File.
+YAML™ (rhymes with “camel”) is a human-friendly, cross language data serialization language. You will use it almost intuitively. Thanks to YAML, there is no need to use the #-Symbol as in Quantnet 1.0 in the metainfo anymore. It is even robust against redundant space in description parts although we advise to avoid these. Besides that, there are alternative ways on how to structure enumerations in a YAML-File.
 
 #### Example of complete and correct "metainfo.txt" in YAML format
 
@@ -96,7 +95,7 @@ Example:
 
 - _Optional_ data fields, where no description is provided can be omitted completely (Above example includes them for illustration purposes anyway). 
 
-- If you write multiple lines or use special characters you have to put your text in single quotes  'Your text'. For single lines without special characters there is no need to do so. Characters like {_, -, :, ", ...} are meant to be special characters. In case of doubt simply put your text in single quotes. 
+- If you write multiple lines or use special characters you have to put your text in single quotes, i.e.  'Your text'. For single lines without special characters there is no need to do so. 
 
 - If you want to use the apostrophe character <'> (represented by the single quote sign) inside your text just type the single quote sign twice.
 
@@ -120,7 +119,9 @@ Jan 2000 to Dec 2009.'
 
 ```
 
-All of these 5 notations are accepted by YAML. We recomend to use such notations which display the text in the best human readable way. Because the metainfo text is used later for the Readme file creation (this process is executed in an automatic way).
+All of these 5 notations are accepted by YAML. We recomend to use such notations which display the text in the best human readable way, because the metainfo text is used later for the Readme file creation (this process is executed in an automatic way).
+
+Characters like {_, -, :, ", ...} are meant to be special characters. In case of doubt simply put your text in single quotes. 
 
 ```yaml
 
@@ -132,6 +133,7 @@ Germany (blue), France (black), Italy (green) and Sweden (grey).'
 ```
 
 This notation (with special characters and multiple lines) is accepted by the YAML parser.
+The following code is a counterexample to illustrate possible mistakes.
 
 ```yaml
 
@@ -142,7 +144,7 @@ Germany (blue), France (black), Italy (green) and Sweden (grey).
 
 ```
 
-This notation (with special characters and multiple lines) results to a YAML parser error.
+This notation (with special characters and multiple lines) results to a __YAML parser error__.
 
 ```yaml
 
@@ -153,7 +155,7 @@ corrected contingency correlation and Cramer''s V.'
 ...
 
 ```
-How to include the apostrophe character inside your text. Very important: use TWO single quote signs (Type ', Type ') and NOT ONE double quote sign (Type "), because the both ways look nearly the same!
+How to include the apostrophe character inside your text. Very important: use TWO single quote signs (Type ', Type ') and NOT ONE double quote sign (Type "), because both ways look nearly the same!
 After the parsing process this notation is automatically converted to the proper representation of the apostrophe character.
 
 #### Alternative ways of enumerations in metainfo.txt
