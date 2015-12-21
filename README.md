@@ -14,16 +14,16 @@ __This repository includes:__
 - Basic overview of organizational workflow of QuantLet - [Workflow](https://github.com/QuantLet/Styleguide-and-Validation-procedure/blob/master/Transition%20of%20Quantlets%20on%20Github.PNG)
 - Template for mandatory file in every QuantLet repository:
  - [metainfo.txt](https://github.com/QuantLet/Validation-procedure-and-Styleguide/blob/master/TEMPLATE_Metainfo.txt)
-Please format the content of metainfo.txt according to YAML as described in the Styleguide. Thanks to that format we are able to automatically provide a standardized Readme.md to your repository.
+\- Please format your added content according to YAML as described in the [Styleguide](https://github.com/QuantLet/Validation-procedure-and-Styleguide/blob/master/Styleguide.md). Thanks to your effort, we are able to automatically provide a standardized Readme.md to your repository.
 
-__Important Rule I:__
+__Guideline I:__
 - Abbreviations
   - Q = Quantlet
   - QNet = Quantnet
   - repo = repository
   - GH = GitHub
   
-__Important Rule II:__
+__Guideline II:__
 - Every Q has to be in its own subfolder in the repository. 
   - Reponame/Qfolder1/files of Q1
   - Reponame/Qfolder2/files of Q2
@@ -35,7 +35,7 @@ __Important Rule II:__
   2. [Psychological-diagnostics] (https://github.com/QuantLet/Psychological-diagnostics)
   3. [TimeVaryingPenalization] (https://github.com/QuantLet/TimeVaryingPenalization)
 
-__Important Rule III:__
+__Guideline III:__
 - Avoid blanks in the repository names!
 - Avoid unnecessary special characters in the names of repositories, subfolders and Qs
 - In case of doubt use the underscore character "_"
