@@ -268,8 +268,8 @@ Following articles might help you with that:
 - [Git Documentation-Getting started](https://git-scm.com/videos)
 - [Dealing with non-fast-forward errors] (https://help.github.com/articles/dealing-with-non-fast-forward-errors/)
 
-#### 2.4. Upload pictures and datafiles as separate files
-You can easily add files to your local repositories which will be commited and therefore uploaded to the remote branch. Simply add pictures or datafiles to the desired local repository. If you have not specified a special directory upfront, the directory will most likely be C:\Users\Username\Documents\GitHub\Repository_xy.
+#### 2.4. Upload pictures (.png/.jpg) and datafiles as separate files
+You can easily add files to your local repositories which will be commited and therefore uploaded to the remote branch. Simply add pictures (only .png/.jpg) or datafiles to the desired local repository. If you have not specified a special directory upfront, the directory will most likely be C:\Users\Username\Documents\GitHub\Repository_xy.
 
 ## 3. Final Check
 1. Check if your code runs properly and complies to the style requirements
