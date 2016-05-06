@@ -47,8 +47,7 @@ ensured by sufficient and precise comments.
 "Plots the time series ..."
 4. __Keywords__ : at least 5 words (the more the merrier) from the [keyword list](http://quantnet.wiwi.hu-berlin.de/index.php?p=searchResults&w=allkeywords&sort=f) only
 4. __See also (optional)__ : mention related QuantLets
-5. __Author__ : check for existing authors on the [website](http://quantnet.hu-berlin.de/) [if new, then write [New] + Author
-in this field]
+5. __Author__ : Name of the Author
 6. __Submitted (optional)__ : state the name and the time of the original submission
 7. __Datafile__ : check whether all datafiles which are used in the code are listed here
 8. ___Input (optional)___ : Should contain some new info, which is not written 
