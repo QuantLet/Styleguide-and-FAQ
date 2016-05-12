@@ -49,14 +49,16 @@ ensured by sufficient and precise comments.
 4. __See also (optional)__ : mention related QuantLets
 5. __Author__ : Name of the Author
 6. __Submitted (optional)__ : state the name and the time of the original submission
-7. __Datafile__ : check whether all datafiles which are used in the code are listed here
+7. __Datafile__ : All datafiles used by your code need to be listed here
 8. ___Input (optional)___ : Should contain some new info, which is not written 
 in other metainfo fields
 9. ___Output (optional)___ : Should contain some new info, which is not written
 in other metainfo fields
 10. __Example (optional)__  : Should contain a list of generated plots and descriptions, which are not written in other metainfo fields
 
-_Important_: Make sure that the provided 'Name of QuantLet' and the actual filename of your provided Codefile is identical.
+_Important_:  
+1. Make sure that the provided 'Name of QuantLet' and the actual filename of your provided Codefile is identical.  
+2. If a Quantlet is written in more than one programming language (i.e. Matlab/SAS), add relevant datafields like Author[Matlab], Submitted[Matlab],... to the Metainfo.txt
 
 
 #### We use YAML to format metainfo.txt to make things easy and fast
