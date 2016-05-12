@@ -16,7 +16,7 @@ __This repository includes:__
  - [metainfo.txt](https://github.com/QuantLet/Validation-procedure-and-Styleguide/blob/master/TEMPLATE_Metainfo.txt)
 \- Please format your added content according to YAML as described in the [Styleguide](https://github.com/QuantLet/Validation-procedure-and-Styleguide/blob/master/Styleguide.md). Thanks to your effort, we are able to automatically provide a standardized Readme.md to your repository.
 
-__Guideline I:__
+__Guideline testI:__
 - Abbreviations
   - Q = Quantlet
   - QNet = Quantnet
