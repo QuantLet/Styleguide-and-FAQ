@@ -24,7 +24,7 @@ __Guideline I:__
   - GH = GitHub
   
 __Guideline II:__
-- Every Q has to be in its own subfolder in the repository. 
+- Every Q has to be in its own subfolder in the repository (see also [Workflow](QuantNet2.pdf)). 
   - Reponame/Qfolder1/files of Q1
   - Reponame/Qfolder2/files of Q2
   - Reponame/Qfolder3/files of Q3
