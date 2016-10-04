@@ -14,7 +14,7 @@ __This repository includes:__
 - How to format and upload your Quantlet to QuantNet 2.0 - [Workflow](QuantNet2.pdf)
 - Template for mandatory file in every QuantLet repository:
  - [metainfo.txt](TEMPLATE_Metainfo.txt)
-\- Please format your added content according to YAML as described in the [Styleguide](https://github.com/QuantLet/Validation-procedure-and-Styleguide/blob/master/Styleguide.md). Thanks to your effort, we are able to automatically provide a standardized Readme.md to your repository.
+\- Please format your added content according to YAML as described in the [Styleguide](Styleguide.md). Thanks to your effort, we are able to automatically provide a standardized Readme.md to your repository.
 
 __Guideline I:__
 - Abbreviations
