@@ -36,9 +36,9 @@ Formatting ensures human readability while comprehensibility is ensured by suffi
 10. __Output (optional)__ : Should contain some new info, which is not written in other metainfo fields
 11. __Example (optional)__  : Should contain a list of generated plots and descriptions, which are not written in other metainfo fields
 
-_Important_:  
-1. Make sure that the provided 'Name of Quantlet' and the actual filename of your provided Codefile is identical.  
-2. If a Quantlet is written in more than one programming language (i.e. Matlab/SAS), add relevant datafields like Author[Matlab], Submitted[Matlab],... to the Metainfo.txt
+#### _Important_:  
+1. Make sure that the provided 'Name of Quantlet' and the actual filename of your provided Codefile is identical! Otherwise the automatic Readme.md creation will be incomplete.
+2. If a Quantlet is written in more than one programming language (i.e. Matlab/SAS), add relevant datafields like Author[Matlab], Author[SAS], Submitted[Matlab], Submitted[SAS], ... to the Metainfo.txt of you want ti distinguish between different versions/languages.
 
 
 #### We use YAML to format metainfo.txt to make things easy and fast
