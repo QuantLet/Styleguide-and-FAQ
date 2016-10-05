@@ -4,23 +4,19 @@
 # <img src="pictures/githublogo.png" width="120" /> **Styleguide of QuantLets** [<img src="https://github.com/QuantLet/Styleguide-and-Validation-procedure/blob/master/pictures/qloqo.png" alt="Visit QuantNet">](http://quantlet.de/)[<img src="https://github.com/QuantLet/Styleguide-and-Validation-procedure/blob/master/pictures/QN2.png" width="60" alt="Visit QuantNet 2.0">](http://quantlet.de/d3/ia)
 
 
-The following pages will introduce the Styleguide of Quantlets (Qs). An overview 
-of the structure of a Q is given while explaining each part's relevance.
-You will find descriptions and instructions on how to format your 
-code as well as detailed examples about the required information 
-for your Q. 
+The following pages will introduce the Styleguide of Quantlets (Qs). An overview of the structure of a Q is given while explaining each part's relevance.
+You will find descriptions and instructions on how to format your code as well as detailed examples about the required information for your Q. 
 
 In the second section you will find basic instructions on how to work with the desktop client version of Github, which includes additional features to upload pictures and datafiles as separate files to your Q's repository.
 
-Finally, several illustrative examples of correct QuantLets
-are listed in the Appendix.
+Finally, several illustrative examples of correct Quantlets are listed in the Appendix.
 
-## 1. Structure of a QuantLet Repository on Github
+## 1. Structure of a Quantlet Repository on Github
 
-Every QuantLet Repository consists of two elementary parts / files with equal relevance:
+Every Quantlet Repository consists of two elementary parts / files with equal relevance:
 * __Metainfo.txt:__ Contains meta-information about the functionality,
 origin and purpose of your Q. Furthermore, lists of keywords and references
-to other related QuantLets are stated. You will need to create the file 
+to other related Quantlets are stated. You will need to create the file 
 "metainfo.txt", which will be formatted in 'YAML' an easy and intuitive
 data serialization language. The formatted "metainfo.txt" will be used for 
 [Visualization] (http://quantnet.wiwi.hu-berlin.de/d3/ia/) and
@@ -30,7 +26,7 @@ you will find examples on how to format the "metainfo.txt".
 You can download the prepared
 [TEMPLATE_Metainfo.txt here.] (https://github.com/QuantLet/Validation-procedure-and-Styleguide/blob/master/TEMPLATE_Metainfo.txt)
 
-* __QuantLetcode.r:__ 
+* __Quantletcode.r:__ 
 A correctly working code represents the second
 elementary part. The described functionality in the metainfo.txt should
 practically be realizable by using the provided code. Besides correct 
@@ -41,12 +37,12 @@ ensured by sufficient and precise comments.
 ### 1.1. Metainfo.txt
 #### Required and optional Meta-Information
 
-1. __Name of QuantLet__ : e.g. SFEDAXlogreturns (Omit endings like .r .sas or .m)
+1. __Name of Quantlet__ : e.g. SFEDAXlogreturns (Omit endings like .r .sas or .m)
 2. __Published in__ : Book / Paper
 3. __Description__ : at least 10 words; should begin with a verb and with capital letters, e.g.
 "Plots the time series ..."
 4. __Keywords__ : at least 5 words (the more the merrier) from the [keyword list](http://quantnet.wiwi.hu-berlin.de/index.php?p=searchResults&w=allkeywords&sort=f) only
-4. __See also (optional)__ : mention related QuantLets
+4. __See also (optional)__ : mention related Quantlets
 5. __Author__ : Name of the Author
 6. __Submitted (optional)__ : state the name and the time of the original submission
 7. __Datafile__ : All datafiles used by your code need to be listed here
@@ -57,7 +53,7 @@ in other metainfo fields
 10. __Example (optional)__  : Should contain a list of generated plots and descriptions, which are not written in other metainfo fields
 
 _Important_:  
-1. Make sure that the provided 'Name of QuantLet' and the actual filename of your provided Codefile is identical.  
+1. Make sure that the provided 'Name of Quantlet' and the actual filename of your provided Codefile is identical.  
 2. If a Quantlet is written in more than one programming language (i.e. Matlab/SAS), add relevant datafields like Author[Matlab], Submitted[Matlab],... to the Metainfo.txt
 
 
@@ -68,7 +64,7 @@ YAML™ (rhymes with “camel”) is a human-friendly, cross language data seria
 
 ```yaml
  
-Name of QuantLet:  MVAreturns
+Name of Quantlet:  MVAreturns
  
 Published in:      Applied Multivariate Statistical Analysis
   
@@ -277,7 +273,7 @@ You can easily add files to your local repositories which will be commited and t
 2. Check if MetaInfo is complete and that you have sufficient keywords from the [keyword list](http://quantnet.wiwi.hu-berlin.de/index.php?p=searchResults&w=allkeywords&sort=f) 
 
 ## 4. Appendix
-Example's of correctly formatted QuantLets with all required meta-information:
+Example's of correctly formatted Quantlets with all required meta-information:
 Pick out any of the "bubbles" in this [Visualization] (http://quantnet.wiwi.hu-berlin.de/d3/ia/),
 then click on it and examine the files in the shown GitHub-folder. In particular the related "metainfo.txt".
 
