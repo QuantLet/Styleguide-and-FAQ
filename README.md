@@ -7,6 +7,7 @@
 ## Build software better, together, now (QuantNet 2.0 @ GitHub)
 <img src="pictures/RapidPrototyping.png" width="880" />
 
+### We highly recommend that you first familiarize yourself with the [Styleguide](Styleguide.md) and the application of [yamldebugger](https://github.com/lborke/yamldebugger). They will help you to avoid typical problems and strengthen your sense of achievement.
 
 __This repository includes:__
 - __Styleguide of Quantlets for first submission__ - [Styleguide](Styleguide.md)
@@ -15,12 +16,11 @@ __This repository includes:__
 - Template for mandatory file in every QuantLet repository:
  - [metainfo.txt](TEMPLATE_Metainfo.txt)
 \- Please format your added content according to YAML as described in the [Styleguide](Styleguide.md). Thanks to your effort, we are able to automatically provide a standardized Readme.md to your repository.
-- YAML parser debugger ([yamldebugger](https://github.com/lborke/yamldebugger)) according to the QuantNet style guide:
+- __YAML parser debugger__ ([yamldebugger](https://github.com/lborke/yamldebugger)) according to the QuantNet style guide:
 	the R-Package [yamldebugger](https://github.com/lborke/yamldebugger) may be freely used for testing and validating the own Quantlets
 	bevore uploading them into https://github.com/quantlet
 	Mainly, it checks the validity of the YAML meta information and the completeness of the mandatory data fields as described in [Styleguide](Styleguide.md)
 
-### We highly recommend that you first familiarize yourself with the [Styleguide](Styleguide.md) and the application of [yamldebugger](https://github.com/lborke/yamldebugger). They will help you to avoid typical problems and strengthen your sense of achievement.
 	
 __Guideline I:__
 - Abbreviations
