@@ -38,11 +38,14 @@ Formatting ensures human readability while comprehensibility is ensured by suffi
 
 #### _Important_:  
 1. Make sure that the provided 'Name of Quantlet' and the actual filename of your provided Codefile is identical! Otherwise the automatic Readme.md creation will be incomplete.
-2. If a Quantlet is written in more than one programming language (i.e. Matlab/SAS), add relevant datafields like Author[Matlab], Author[SAS], Submitted[Matlab], Submitted[SAS], ... to the Metainfo.txt of you want ti distinguish between different versions/languages.
+2. If a Quantlet is written in more than one programming language (i.e. Matlab/SAS), add relevant datafields like Author[Matlab], Author[SAS], Submitted[Matlab], Submitted[SAS], ... to the Metainfo.txt if you want to distinguish between different versions/languages.
 
 
 #### We use YAML to format metainfo.txt to make things easy and fast
-YAML™ (rhymes with “camel”) is a human-friendly, cross language data serialization language. You will use it almost intuitively. Thanks to YAML, there is no need to use the #-Symbol as in Quantnet 1.0 in the metainfo anymore. It is even robust against redundant space in description parts although we advise to avoid these. Besides that, there are alternative ways on how to structure enumerations in a YAML-File.
+YAML™ (rhymes with “camel”) is a human-friendly, cross language data serialization language. You will use it almost intuitively. Thanks to YAML, there is no need to use the #-Symbol as in Quantnet 1.0 in the metainfo anymore.
+The metainfo and the code parts are now clearly separated. However, an automatic evaluation and aggregation of these elementary parts becomes possible.
+It is even robust against redundant space in description parts although we advise to avoid these. Besides that, there are alternative ways on how to structure enumerations in a YAML-File.
+
 
 #### Example of complete and correct "metainfo.txt" in YAML format
 
