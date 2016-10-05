@@ -38,7 +38,7 @@ Formatting ensures human readability while comprehensibility is ensured by suffi
 
 #### _Important_:  
 1. Make sure that the provided 'Name of Quantlet' and the actual filename of your provided Codefile is identical! Otherwise the automatic Readme.md creation will be incomplete.
-2. If a Quantlet is written in more than one programming language (i.e. Matlab/SAS), add relevant datafields like Author[Matlab], Author[SAS], Submitted[Matlab], Submitted[SAS], ... to the Metainfo.txt if you want to distinguish between different versions/languages.
+2. If a Quantlet is written in more than one programming language (i.e. Matlab/SAS), add relevant data fields like Author[Matlab], Author[SAS], Submitted[Matlab], Submitted[SAS], ... to the Metainfo.txt if you want to distinguish between different versions/languages.
 
 
 #### We use YAML to format metainfo.txt to make things easy and fast
@@ -161,7 +161,7 @@ Keywords:
 ```
 
 ---
-In some cases, the datafields "Input" and "Output" require you to add an additional description to your enumerated items. You can do this by using following syntax:
+In some cases, the data fields "Input" and "Output" require you to add an additional description to your enumerated items. You can do this by using following syntax:
 ```yaml
 
 Input:   
@@ -176,12 +176,11 @@ For further details please check the complete [YAML documentation](http://www.ya
 
 ### 1.2. Code
 
-#### Use "FormatR package" to clean up your R code (In the case you are using another language like Matlab try to implement the following steps accordingly) 
-You can easily preprocess your code with the FormatR package. This will
-do 80% of the work for you. In the following you will find instructions on how to execute the relevant
-function.
+#### Use [formatR package](https://cran.r-project.org/web/packages/formatR/index.html) to clean up your R code (In the case you are using another language like Matlab try to implement the following steps accordingly) 
 
-----------------------------------------------------------
+---
+You can easily preprocess your code with the formatR package. This will do 80% of the work for you. In the following you will find instructions on how to execute the relevant function.
+
 ```R
 # Cleaning up the source code in an R script file "input.R",  
 # The formatted code will be written into the new script file "output.R"
