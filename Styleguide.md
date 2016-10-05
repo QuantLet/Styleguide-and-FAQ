@@ -25,9 +25,9 @@ Formatting ensures human readability while comprehensibility is ensured by suffi
 #### Required and optional Meta-Information
 
 1. __Name of Quantlet__ : e.g. SFEDAXlogreturns (Omit endings like .r .m .sas or .py)
-2. __Published in__ : Book / Paper / other Place of publiction
+2. __Published in__ : Book / Paper / other Place of publication
 3. __Description__ : at least 10 words; should begin with a verb and with capital letters, e.g. "Plots the time series ..."
-4. __Keywords__ : at least 5 words (the more the merrier) from the [keyword list](http://quantnet.wiwi.hu-berlin.de/index.php?p=searchResults&w=allkeywords&sort=f) only
+4. __Keywords__ : at least 5 words (the more the merrier), please use the [yamldebugger](https://github.com/lborke/yamldebugger) for their validation, the more provided keywords are in the Quantlet list the better for the text mining!
 5. __Author__ : Name of the Author
 6. __See also (optional)__ : mention related Quantlets
 7. __Submitted (optional)__ : state the name and the time of the original submission
