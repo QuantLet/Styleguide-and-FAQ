@@ -18,6 +18,7 @@ __This repository includes:__
 - YAML parser debugger ([yamldebugger](https://github.com/lborke/yamldebugger)) according to the QuantNet style guide:
 	the R-Package [yamldebugger](https://github.com/lborke/yamldebugger) may be freely used for testing and validating the own Quantlets
 	bevore uploading them into https://github.com/quantlet
+	Mainly, it checks the validity of the YAML meta information and the completeness of the mandatory data fields as described in [Styleguide](Styleguide.md)
 
 __Guideline I:__
 - Abbreviations
