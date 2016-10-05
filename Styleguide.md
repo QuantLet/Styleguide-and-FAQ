@@ -260,13 +260,14 @@ If you have not specified a special directory upfront, the directory will most l
 
 ## 3. Final Check
 1. Check if your code runs properly and complies to the style requirements
-2. Check if MetaInfo is complete and that you have sufficient keywords from the [keyword list](http://quantnet.wiwi.hu-berlin.de/index.php?p=searchResults&w=allkeywords&sort=f) 
+2. Check if the MetaInfo is complete and YAML-compliant and that you have sufficient keywords, please use the [yamldebugger](https://github.com/lborke/yamldebugger) for this purpose
 
 ## 4. Appendix
 Example's of correctly formatted Quantlets with all required meta-information:
 Pick out any of the "bubbles" in the [Q Visualization] (http://www.quantlet.de), then click on it and examine the files in the shown GitHub-folder. In particular the related "metainfo.txt".
 
 Some Examples:
+
 1. [MVAsirdata ] (https://github.com/QuantLet/Ready/blob/master/QID-1234-MVAsirdata/Metainfo.txt)
 2. [MMSTATconfi_pi] (https://github.com/QuantLet/MMSTAT/blob/master/MMSTATconfi_pi/Metainfo.txt)
 3. [MTS_expinf] (https://github.com/QuantLet/MTS/blob/master/MTS_expinf/Metainfo.txt)
