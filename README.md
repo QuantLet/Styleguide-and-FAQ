@@ -50,5 +50,5 @@ __Guideline III:__
   2. [MMSTAT] (https://github.com/QuantLet/MMSTAT)
   3. [Git2Q3-Collaboration] (https://github.com/QuantLet/Git2Q3-Collaboration)
 - Some bad Examples:
-  1. [lCARE-BTU-HU-] (https://github.com/QuantLet/lCARE-BTU-HU-)
+  1. [lCARE-BTU-HU-] (https://github.com/QuantLet/lCARE-BTU-HU-) (unnecessary hyphen)
 - Please note that repos with bad name notation will be excluded from final validation and importing into the [Visualization] (http://quantnet.wiwi.hu-berlin.de/d3/ia/). It's up to you to rename your repos accordingly. Actually, some special characters make the automatic processing impossible.
