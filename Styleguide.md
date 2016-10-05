@@ -143,13 +143,13 @@ corrected contingency correlation and Cramer''s V.'
 
 ```
 
+---
 #### Alternative ways of enumerations in metainfo.txt
-As mentioned above, there are different ways you can structure enumerations in YAML.
-Below you find the two possible alternatives:
+As mentioned above, there are different ways you can structure enumerations in YAML. Below you find two possible alternatives:
 ```yaml
-...
+
 Keywords:          financial, portfolio, returns, asset, time-series, plot
-...
+
 Keywords:          
 - financial
 - portfolio
@@ -159,6 +159,7 @@ Keywords:
 - plot
 
 ```
+
 In many cases, the datafields "Input" and "Output" require you to add an additional description to your enumerated items. You can do this by using following syntax:
 ```yaml
 ...
