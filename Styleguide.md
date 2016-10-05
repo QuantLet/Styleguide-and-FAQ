@@ -88,6 +88,7 @@ Example:
 More tips and tricks can be found here: [Complete idiot's introduction to yaml](https://github.com/Animosity/CraftIRC/wiki/Complete-idiot's-introduction-to-yaml)
 
 
+---
 ```yaml
 
 ...
