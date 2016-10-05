@@ -76,14 +76,16 @@ Example:
 ```
 
 #### Three main YAML rules
-1. The colon ' : ' separates the data field (left) from its description (right).
-2. If you write multiple lines or use special characters you have to put your text in single quotes, i.e.  'Your text'. For single lines without special characters there is no need to do so.
+1. The colon ' : ' separates the data field (left) from its description (right) and the dash ' - ' enumerates list items. Avoid them in all other cases or apply Rule 2.
+2. If you write multiple lines or use special characters (as in Rule 1 or examples below) you have to put your text in single quotes, i.e. 'Your text'. For single lines without special characters there is no need to do so.
 3. If you want to use the apostrophe character <'> (represented by the single quote sign) inside your text just type the single quote sign twice.
 
 ### Is is very important to type the exact apostrophe character <'> as displayed above!! Depending on your keyboard and/or editor some other apostrophe variants can appear. Then you have to correct them manually or via Copy&Paste in order to achieve the version above.
 
 - __Optional__ data fields, where no description is provided, can be omitted completely (Above example includes them for illustration purposes anyway). The automatic Readme.md creation process also skips empty data fields.
 - The order of appearance of the data fields is irrelevant. They are treated as an "unordered list". Only their presence and content behind the colon ' : ' is crucial.
+
+More tips and tricks can be found here: [Complete idiot's introduction to yaml](https://github.com/Animosity/CraftIRC/wiki/Complete-idiot's-introduction-to-yaml)
 
 
 ```yaml
