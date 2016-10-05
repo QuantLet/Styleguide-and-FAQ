@@ -37,9 +37,9 @@ __Guideline II:__
   
 - Some Examples:
 
-  1. [MSM] (https://github.com/QuantLet/MSM)
-  2. [Psychological-diagnostics] (https://github.com/QuantLet/Psychological-diagnostics)
-  3. [TimeVaryingPenalization] (https://github.com/QuantLet/TimeVaryingPenalization)
+  1. [MSM] (https://github.com/QuantLet/MSM) (Reponame: MSM, 12 Qfolders)
+  2. [Psychological-diagnostics] (https://github.com/QuantLet/Psychological-diagnostics) (Reponame: Psychological-diagnostics, 1 Qfolder)
+  3. [TimeVaryingPenalization] (https://github.com/QuantLet/TimeVaryingPenalization) (Reponame: TimeVaryingPenalization, 4 Qfolders)
 
 __Guideline III:__
 - Avoid blanks in the repository names!
