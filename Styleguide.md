@@ -24,20 +24,17 @@ Formatting ensures human readability while comprehensibility is ensured by suffi
 ### 1.1. Metainfo.txt
 #### Required and optional Meta-Information
 
-1. __Name of Quantlet__ : e.g. SFEDAXlogreturns (Omit endings like .r .sas or .m)
-2. __Published in__ : Book / Paper
-3. __Description__ : at least 10 words; should begin with a verb and with capital letters, e.g.
-"Plots the time series ..."
+1. __Name of Quantlet__ : e.g. SFEDAXlogreturns (Omit endings like .r .m .sas or .py)
+2. __Published in__ : Book / Paper / other Place of publiction
+3. __Description__ : at least 10 words; should begin with a verb and with capital letters, e.g. "Plots the time series ..."
 4. __Keywords__ : at least 5 words (the more the merrier) from the [keyword list](http://quantnet.wiwi.hu-berlin.de/index.php?p=searchResults&w=allkeywords&sort=f) only
-4. __See also (optional)__ : mention related Quantlets
 5. __Author__ : Name of the Author
-6. __Submitted (optional)__ : state the name and the time of the original submission
-7. __Datafile__ : All datafiles used by your code need to be listed here
-8. ___Input (optional)___ : Should contain some new info, which is not written 
-in other metainfo fields
-9. ___Output (optional)___ : Should contain some new info, which is not written
-in other metainfo fields
-10. __Example (optional)__  : Should contain a list of generated plots and descriptions, which are not written in other metainfo fields
+6. __See also (optional)__ : mention related Quantlets
+7. __Submitted (optional)__ : state the name and the time of the original submission
+8. __Datafile (optional)__ : All datafiles used by your code need to be listed here
+9. __Input (optional)__ : Should contain some new info, which is not written in other metainfo fields
+10. __Output (optional)__ : Should contain some new info, which is not written in other metainfo fields
+11. __Example (optional)__  : Should contain a list of generated plots and descriptions, which are not written in other metainfo fields
 
 _Important_:  
 1. Make sure that the provided 'Name of Quantlet' and the actual filename of your provided Codefile is identical.  
