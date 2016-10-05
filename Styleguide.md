@@ -75,7 +75,7 @@ Example:
   
 ```
 
-#### Three main YAML rules
+#### Three main YAML rules:
 1. The colon ' : ' separates the data field (left) from its description (right) and the dash ' - ' enumerates list items. Avoid them in all other cases or apply Rule 2.
 2. If you write multiple lines or use special characters (as in Rule 1 or examples below) you have to put your text in single quotes, i.e. 'Your text'. For single lines without special characters there is no need to do so.
 3. If you want to use the apostrophe character <'> (represented by the single quote sign) inside your text just type the single quote sign twice.
@@ -89,7 +89,7 @@ Example:
 More tips and tricks can be found here: [Complete idiot's introduction to yaml](https://github.com/Animosity/CraftIRC/wiki/Complete-idiot's-introduction-to-yaml)
 
 
-#### YAML format examples
+#### YAML format examples:
 
 ---
 All subsequent five notations are accepted by YAML. We recomend to use such notations which display the text in the best human readable way, because the metainfo text is used later for the Readme file creation (this process is executed in an automatic way).
