@@ -20,7 +20,7 @@ __This repository includes:__
 	bevore uploading them into https://github.com/quantlet
 	Mainly, it checks the validity of the YAML meta information and the completeness of the mandatory data fields as described in [Styleguide](Styleguide.md)
 
-### We highly recommend you to familiarize yourself with [Styleguide](Styleguide.md) and [yamldebugger](https://github.com/lborke/yamldebugger). They will help you to avoid typical problems and strengthen your sense of achievement.
+### We highly recommend that you first familiarize yourself with the [Styleguide](Styleguide.md) and the application of [yamldebugger](https://github.com/lborke/yamldebugger). They will help you to avoid typical problems and strengthen your sense of achievement.
 	
 __Guideline I:__
 - Abbreviations
