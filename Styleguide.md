@@ -94,21 +94,19 @@ All subsequent five notations are accepted by YAML. We recomend to use such nota
 Characters like {_, -, :, ", ...} are meant to be special characters. In case of doubt simply put your text in single quotes (See "Three main YAML rules"). 
 ```yaml
 
-...
 Description:       Shows monthly returns of six US firms from Jan 2000 to Dec 2009.
 
 Description:       'Shows monthly returns of six US firms from Jan 2000 to Dec 2009.'
 
 Description:       'Shows monthly returns of six US firms
                     from Jan 2000 to Dec 2009.'
-...
+
 Description:       'Shows monthly returns of six US firms
 from Jan 2000 to Dec 2009.'
-...
+
 Description : 'Shows monthly returns
 of six US firms from
 Jan 2000 to Dec 2009.'
-...
 
 ```
 
