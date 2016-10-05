@@ -89,6 +89,9 @@ More tips and tricks can be found here: [Complete idiot's introduction to yaml](
 
 
 ---
+All subsequent five notations are accepted by YAML. We recomend to use such notations which display the text in the best human readable way, because the metainfo text is used later for the Readme file creation (this process is executed in an automatic way).
+
+Characters like {_, -, :, ", ...} are meant to be special characters. In case of doubt simply put your text in single quotes (See "Three main YAML rules"). 
 ```yaml
 
 ...
@@ -109,9 +112,6 @@ Jan 2000 to Dec 2009.'
 
 ```
 
-All of these 5 notations are accepted by YAML. We recomend to use such notations which display the text in the best human readable way, because the metainfo text is used later for the Readme file creation (this process is executed in an automatic way).
-
-Characters like {_, -, :, ", ...} are meant to be special characters. In case of doubt simply put your text in single quotes. 
 
 ```yaml
 
