@@ -47,7 +47,7 @@ The metainfo and the code parts are now clearly separated. However, an automatic
 It is even robust against redundant space in description parts although we advise to avoid these. Besides that, there are alternative ways on how to structure enumerations in a YAML-File.
 
 
-#### Example of complete and correct "metainfo.txt" in YAML format
+#### Example of a complete and correct "metainfo.txt" in YAML format
 
 ```yaml
  
@@ -75,13 +75,15 @@ Example:
   
 ```
 
-- The colon ' : ' separates the data field (left) from its description (right)
+#### Three main YAML rules
+1. The colon ' : ' separates the data field (left) from its description (right).
+2. If you write multiple lines or use special characters you have to put your text in single quotes, i.e.  'Your text'. For single lines without special characters there is no need to do so.
+3. If you want to use the apostrophe character <'> (represented by the single quote sign) inside your text just type the single quote sign twice.
 
-- _Optional_ data fields, where no description is provided can be omitted completely (Above example includes them for illustration purposes anyway). 
+### Is is very important to type the exact apostrophe character <'> as displayed above!! Depending on your keyboard and/or editor some other apostrophe variants can appear. Then you have to correct them manually or via Copy&Paste in order to achieve the version above.
 
-- If you write multiple lines or use special characters you have to put your text in single quotes, i.e.  'Your text'. For single lines without special characters there is no need to do so. 
+- _Optional_ data fields, where no description is provided, can be omitted completely (Above example includes them for illustration purposes anyway). The automatic Readme.md creation process also skips empty data fields.
 
-- If you want to use the apostrophe character <'> (represented by the single quote sign) inside your text just type the single quote sign twice.
 
 ```yaml
 
