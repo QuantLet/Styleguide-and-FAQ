@@ -18,13 +18,8 @@ Every Quantlet folder consists of two elementary parts / files with equal releva
 data serialization language. The formatted "metainfo.txt" will be used for [Visualization] (http://www.quantlet.de) and data mining practices (e.g. clustering, filtering and recommendation engines) and is therefore __mandatory__.
 In the next sections, you will find examples on how to format the "metainfo.txt". Here, You can download the prepared [TEMPLATE_Metainfo.txt] (TEMPLATE_Metainfo.txt)
 
-* __Quantletcode.r:__ 
-A correctly working code represents the second
-elementary part. The described functionality in the metainfo.txt should
-practically be realizable by using the provided code. Besides correct 
-functionality the code needs to be formatted according to the here provided 
-styleguide. Formatting ensures human readability while comprehensibility is 
-ensured by sufficient and precise comments.
+* __Quantletcode:__ A correctly working code represents the second elementary part. The described functionality in the metainfo.txt should practically be realizable by using the provided code. Besides correct functionality the code needs to be formatted according to the here provided styleguide.
+Formatting ensures human readability while comprehensibility is ensured by sufficient and precise comments.
 
 ### 1.1. Metainfo.txt
 #### Required and optional Meta-Information
