@@ -11,7 +11,7 @@ In the second section you will find basic instructions on how to work with the d
 
 Finally, several illustrative examples of correct Quantlets are listed in the Appendix.
 
-## 1. Structure of a Quantlet Repository on Github
+## 1. Structure of a Quantlet folder in a Github repository (see also __Guideline II__ in [README](README.md))
 
 Every Quantlet Repository consists of two elementary parts / files with equal relevance:
 * __Metainfo.txt:__ Contains meta-information about the functionality,
