@@ -9,7 +9,7 @@
 
 
 __This repository includes:__
-- Styleguide of Quantlets for first submission - [Styleguide](Styleguide.md)
+- _Styleguide of Quantlets for first submission_ - [Styleguide](Styleguide.md)
 - Frequently Asked Questions - [FAQ](https://github.com/QuantLet/Styleguide-and-Q-A/wiki)
 - How to format and upload your Quantlet to QuantNet 2.0 - [Workflow](QuantNet2.pdf)
 - Template for mandatory file in every QuantLet repository:
