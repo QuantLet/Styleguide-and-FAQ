@@ -15,7 +15,9 @@ __This repository includes:__
 - Template for mandatory file in every QuantLet repository:
  - [metainfo.txt](TEMPLATE_Metainfo.txt)
 \- Please format your added content according to YAML as described in the [Styleguide](Styleguide.md). Thanks to your effort, we are able to automatically provide a standardized Readme.md to your repository.
-- YAML parser debugger according to the QuantNet style guide [yamldebugger](https://github.com/lborke/yamldebugger)
+- YAML parser debugger according to the QuantNet style guide [yamldebugger](https://github.com/lborke/yamldebugger):
+	the R-Package yamldebugger may be freely used for testing and validating the own Quantlets
+	bevore uploading them into https://github.com/quantlet
 
 __Guideline I:__
 - Abbreviations
