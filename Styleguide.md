@@ -123,7 +123,7 @@ Germany (blue), France (black), Italy (green) and Sweden (grey).'
 ```
 
 ---
-The following code is a counterexample to illustrate possible mistakes.
+The following code is a counterexample to illustrate possible mistakes. This notation (with special characters and multiple lines) results to a __YAML parser error__.
 ```yaml
 
 Example : The comparison of estimated IE forecast across five different countries - U.K. (red), 
@@ -131,19 +131,17 @@ Germany (blue), France (black), Italy (green) and Sweden (grey).
 
 ```
 
-This notation (with special characters and multiple lines) results to a __YAML parser error__.
+---
+How to include the apostrophe character inside your text. Very important: use TWO single quote signs (Type ', Type ') and NOT ONE double quote sign (Type "), because both ways look nearly the same!
+After the parsing process this notation is automatically converted to the proper representation of the apostrophe character.
 
 ```yaml
 
-...
 Description : 'Computes a contingency table. Additionally, four different 
 correlation measures can be given: Chi-square, contingency correlation,
 corrected contingency correlation and Cramer''s V.'
-...
 
 ```
-How to include the apostrophe character inside your text. Very important: use TWO single quote signs (Type ', Type ') and NOT ONE double quote sign (Type "), because both ways look nearly the same!
-After the parsing process this notation is automatically converted to the proper representation of the apostrophe character.
 
 #### Alternative ways of enumerations in metainfo.txt
 As mentioned above, there are different ways you can structure enumerations in YAML.
