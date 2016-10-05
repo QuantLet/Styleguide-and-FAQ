@@ -15,7 +15,7 @@ Finally, several illustrative examples of correct Quantlets are listed in the Ap
 
 Every Quantlet folder consists of two elementary parts / files with equal relevance:
 * __Metainfo.txt:__ Contains meta-information about the functionality, origin and purpose of your Q. Furthermore, lists of keywords and references to other related Quantlets are stated. You will need to create the file "metainfo.txt", which will be formatted in 'YAML' - an easy and intuitive
-data serialization language. The formatted "metainfo.txt" will be used for [Visualization] (http://www.quantlet.de) and data mining practices (e.g. Clustering, filtering and recommendation engines) and is therefore _mandatory_.
+data serialization language. The formatted "metainfo.txt" will be used for [Visualization] (http://www.quantlet.de) and data mining practices (e.g. clustering, filtering and recommendation engines) and is therefore __mandatory__.
 In the next sections, you will find examples on how to format the "metainfo.txt". Here, You can download the prepared [TEMPLATE_Metainfo.txt] (TEMPLATE_Metainfo.txt)
 
 * __Quantletcode.r:__ 
