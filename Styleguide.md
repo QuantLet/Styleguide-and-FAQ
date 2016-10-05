@@ -160,15 +160,16 @@ Keywords:
 
 ```
 
-In many cases, the datafields "Input" and "Output" require you to add an additional description to your enumerated items. You can do this by using following syntax:
+---
+In some cases, the datafields "Input" and "Output" require you to add an additional description to your enumerated items. You can do this by using following syntax:
 ```yaml
-...
+
 Input:   
 - t : time points
 
 Output:   
 - k : kernel function
-...
+
 ```
 
 For further details please check the complete [YAML documentation](http://www.yaml.org/spec/1.2/spec.html) or find additional information in our [FAQ section](https://github.com/QuantLet/Styleguide-and-FAQ/wiki/03_Questions:-YAML)
