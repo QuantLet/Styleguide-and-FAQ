@@ -7,9 +7,9 @@ Description: MUST NOT BE EMPTY!
 
 Keywords: MUST NOT BE EMPTY!
 
-See also: for listing related, similar Quantlets or Github code from your point of view - delete if not used
+Author: MUST NOT BE EMPTY
 
-Author: SHOULD NOT BE EMPTY
+See also: for listing related, similar Quantlets or Github code from your point of view - delete if not used
 
 Submitted:  SHOULD NOT BE EMPTY
 

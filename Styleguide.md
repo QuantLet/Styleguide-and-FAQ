@@ -39,6 +39,7 @@ Formatting ensures human readability while comprehensibility is ensured by suffi
 #### _Important_:  
 1. Make sure that the provided 'Name of Quantlet' and the actual filename of your provided Codefile is identical! Otherwise the automatic Readme.md creation will be incomplete.
 2. If a Quantlet is written in more than one programming language (i.e. Matlab/SAS), add relevant data fields like Author[Matlab], Author[SAS], Submitted[Matlab], Submitted[SAS], ... to the Metainfo.txt if you want to distinguish between different versions/languages.
+3. The first five metainfo fields are necessary, the [yamldebugger](https://github.com/lborke/yamldebugger) explicitely checks them. You can also provide your own metainfo fields in your "metainfo.txt" as long as they are YAML-compliant.
 
 
 #### We use YAML to format metainfo.txt to make things easy and fast
@@ -263,7 +264,7 @@ If you have not specified a special directory upfront, the directory will most l
 2. Check if the MetaInfo is complete and YAML-compliant and that you have sufficient keywords, please use the [yamldebugger](https://github.com/lborke/yamldebugger) for this purpose
 
 ## 4. Appendix
-Example's of correctly formatted Quantlets with all required meta-information:
+Examples of correctly formatted Quantlets with all required meta-information:
 Pick out any of the "bubbles" in the [Q Visualization] (http://www.quantlet.de), then click on it and examine the files in the shown GitHub-folder. In particular the related "metainfo.txt".
 
 Some Examples:
