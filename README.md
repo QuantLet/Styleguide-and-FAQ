@@ -11,7 +11,7 @@
 - [__Styleguide of Quantlets__](guidelines/Styleguide_Guide_GitHub.pdf): It details ...
 	- the requirements toward the Quantlet(s) and the accompanying Metainfo.txt file,
 	- how to structure your Quantlet(s) within your repository,
-	- for additional information see the page [styleguide](Styleguide.md).
+	- for additional information see the page [styleguide](Styleguide_additional.md).
 - [__Submission Guide for Members of the Quantlet organization__](guidelines/Submission_Guide_GitHub_Members.pdf): It details ...
 	- how to submit to or change an existing repository,
 	- how to fork a repository into the Github Quantlet organization,
