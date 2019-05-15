@@ -18,19 +18,19 @@ __This repository includes:__
 	- how to create a new repository.
 - [__Submission Guide for NON Members of the Quantlet organization__](guidelines/Submission_Guide_GitHub_Non_Members.pdf): It details ...
 	- how to submit to an existing repository via pull request,
-	- entire repsotories can only be forked into the Github Quantlet organisation by a member. 
+	- entire repositories can only be forked into the Github Quantlet organisation by a member. 
 
-We **highly recommend** that you first familiarize yourself with the [Styleguide](guidelines/Styleguide_Guide_GitHub.pdf), at best before you start structering.
+We **highly recommend** that you first familiarize yourself with the [Styleguide](guidelines/Styleguide_Guide_GitHub.pdf), at best before you start structuring.
 
 ### Contacts in case of questions, problems, issues, suggestions, ...
 If you have questions or problems, that are not covered by the documents above, 
 1. Have a look at our [Frequently Asked Questions page](FAQ.md)
 2. Should the issue remain, we recommend ...
-	- students to  consult your project superviser,
+	- students to  consult your project supervisor,
 	- researchers to consult your cooperating author from the IRTG. 
 3. For all remaining issues please consult the Quantlet Team.
-	- We offer office hours Tuesdays from 10am to 11am in Room 110 at Dorotheenstr. 1, 10117 Berlin. Please annouce your visit via mail QUANTLET.wiwi@HU-Berlin.de before.
-	- Contact via QUANTLET.wiwi@HU-Berlin.de,  please always provide your Github username and include links to repositories you are referring to. 
+	- We offer office hours Tuesdays from 10 am to 11 am in Room 110 at Dorotheenstr. 1, 10117 Berlin. Please notify us via QUANTLET.wiwi@HU-Berlin.de about before your visit, such that we can organize accordingly.
+	- Address your issue to us via QUANTLET.wiwi@HU-Berlin.de, in that case please always provide your Github username and include links to repositories you are referring to. 
 
 ### Team
 - E. Zinovyeva
