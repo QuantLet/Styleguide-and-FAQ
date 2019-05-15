@@ -21,7 +21,8 @@ Every Quantlet folder consists of two elementary parts / files:
   - We use YAML to format metainfo.txt to make things easy and fast, YAML is a human-friendly, cross language data serialization language that can be parsed by a computer. For further information about YAML notations, see [YAML](YAML.md).
   - You can use the [Metainfo.txt template](TEMPLATE_Metainfo.txt) as a blueprint for your Metainfo.txt file. If you are unsure about your Metainfo.txt files parsability, we recommend you to use this page [yaml-online-parser.appspot.com](http://yaml-online-parser.appspot.com/) to check it.
 
-* __Quantletcode:__ A correctly working code represents the second elementary part. The described functionality in the Metainfo.txt should practically be realizable by using the provided code.
+* __Quantletcode:__   
+  - A correctly working code represents the second elementary part. The described functionality in the Metainfo.txt should practically be realizable by using the provided code.
 
 #### _Important_:  
 1. Make sure that the provided 'Name of Quantlet' and the actual filename of your provided Codefile is identical! Otherwise the automatic Readme.md creation will be incomplete.
