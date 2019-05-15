@@ -7,7 +7,7 @@
 ## Build software better, together, now (QuantNet 2.0 @ GitHub)
 <img src="pictures/RapidPrototyping.png" width="880" />
 
-__This repository includes:__
+### This repository includes
 - [__Styleguide of Quantlets__](guidelines/Styleguide_Guide_GitHub.pdf): It details ...
 	- the requirements toward the Quantlet(s) and the accompanying Metainfo.txt file,
 	- how to structure your Quantlet(s) within your repository,
