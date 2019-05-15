@@ -22,9 +22,9 @@ __This repository includes:__
 
 We **highly recommend** that you first familiarize yourself with the [Styleguide](guidelines/Styleguide_Guide_GitHub.pdf), at best before you start structuring.
 
-### Contacts in case of questions, problems, issues, suggestions, ...
-If you have questions or problems, that are not covered by the documents above, 
-1. Have a look at our [Frequently Asked Questions page](FAQ.md)
+### Contacts for questions, problems, issues, suggestions, ...
+If you have questions, problems etc. that are not covered by the given documents, 
+1. Have a look at our [Frequently Asked Questions page](FAQ.md).
 2. Should the issue remain, we recommend ...
 	- students to  consult your project supervisor,
 	- researchers to consult your cooperating author from the IRTG. 
