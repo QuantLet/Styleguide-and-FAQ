@@ -7,8 +7,6 @@
 ## Build software better, together, now (QuantNet 2.0 @ GitHub)
 <img src="pictures/RapidPrototyping.png" width="880" />
 
-### We highly recommend that you first familiarize yourself with the [Styleguide](guidelines/Styleguide_Guide_GitHub.pdf), at best before you start programming your project.
-
 __This repository includes:__
 - [__Styleguide of Quantlets__](guidelines/Styleguide_Guide_GitHub.pdf): It details ...
 	- the requirements toward the Quantlet(s) and the accompanying Metainfo.txt file,
@@ -21,4 +19,23 @@ __This repository includes:__
 - [__Submission Guide for NON Members of the Quantlet organization__](guidelines/Submission_Guide_GitHub_Non_Members.pdf): It details ...
 	- how to submit to an existing repository via pull request,
 	- entire repsotories can only be forked into the Github Quantlet organisation by a member. 
-- Frequently Asked Questions - [FAQ](FAQ.md)
+- 
+
+We **highly recommend** that you first familiarize yourself with the [Styleguide](guidelines/Styleguide_Guide_GitHub.pdf), at best before you start structering.
+
+If you have questions or problems, that are not covered by the documents above, have a look at our [Frequently Asked Questions page](FAQ.md). Should the issue remain, we ask students to first consult your project superviser, researchers to to consult your cooperating author from the IRTG. For all remaining issues please contact the Quantlet Team via [e-mail QUANTLET.wiwi@HU-Berlin.de](QUANTLET.wiwi@HU-Berlin.de).
+
+### Contact
+```yaml
+
+Quantlet Team 
+
+IRTG 1792 'High Dimensional Nonstationary Time Series'
+Humboldt University Berlin
+
+School of Business and Economics
+Dorotheenstr. 1
+10117 Berlin
+
+E-Mail: QUANTLET.wiwi@HU-Berlin.de
+```
