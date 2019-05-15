@@ -10,10 +10,18 @@
 ### We highly recommend that you first familiarize yourself with the [Styleguide](guidelines/Styleguide_Guide_GitHub.pdf), at best before you start programming your project.
 
 __This repository includes:__
-- [__Styleguide of Quantlets__](guidelines/Styleguide_Guide_GitHub.pdf):
-	- a
+- [__Styleguide of Quantlets__](guidelines/Styleguide_Guide_GitHub.pdf): There you find information about ...
+	- requirements toward the Quantlet(s) and the accompanying Metainfo.txt file,
+	- how to structure your Quantlet(s) in the repository,
+- [Submission Guideline for Members of the Quantlet organization](guidelines/Submission_Guide_GitHub_Members.pdf): There you can find information ...
+	- how to submit to an existing repository,
+	- how to fork a repository into the Github Quantlet organization,
+	- how to create a new repository,
+	- if you want to submit to or change an existing repository see the [Guidelines for NON-Members]((guidelines/Submission_Guide_GitHub_Non_Members.pdf)) below.
+- [Submission Guideline for NON Members of the Quantlet organization](guidelines/Submission_Guide_GitHub_Non_Members.pdf): There you find information ...
+	- how to submit to an existing repository via pull request,
+	- entire repsotories can only be forked into the Github Quantlet organisation by a member. 
 - Frequently Asked Questions - [FAQ](https://github.com/QuantLet/Styleguide-and-Q-A/wiki)
-- How to format and upload your Quantlet to QuantNet 2.0 - [Workflow](QuantNet2.pdf)
 - Template for mandatory file in every QuantLet subfolder of a repository (see also __Guideline II__):
  - [metainfo.txt](TEMPLATE_Metainfo.txt)
 \- Please format your added content according to YAML as described in the [Styleguide](Styleguide.md). Thanks to your effort, we are able to automatically provide a standardized Readme.md to your repository.
