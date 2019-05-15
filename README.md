@@ -7,48 +7,44 @@
 ## Build software better, together, now (QuantNet 2.0 @ GitHub)
 <img src="pictures/RapidPrototyping.png" width="880" />
 
-### We highly recommend that you first familiarize yourself with the [Styleguide](Styleguide.md) and the application of [yamldebugger](https://github.com/lborke/yamldebugger). They will help you to avoid typical problems and strengthen your sense of achievement.
+### This repository includes
+- [__Styleguide of Quantlets__](guidelines/Styleguide_Guide_GitHub.pdf): It details ...
+	- the requirements toward the Quantlet(s) and the accompanying Metainfo.txt file,
+	- how to structure your Quantlet(s) within your repository,
+	- for additional information see the page [styleguide](Styleguide_additional.md).
+- [__Submission Guide for Members of the Quantlet organization__](guidelines/Submission_Guide_GitHub_Members.pdf): It details ...
+	- how to submit to or change an existing repository,
+	- how to fork a repository into the Github Quantlet organization,
+	- how to create a new repository.
+- [__Submission Guide for NON Members of the Quantlet organization__](guidelines/Submission_Guide_GitHub_Non_Members.pdf): It details ...
+	- how to submit to an existing repository via pull request,
+	- entire repositories can only be forked into the Github Quantlet organisation by a member. 
 
-__This repository includes:__
-- __Styleguide of Quantlets for first submission__ - [Styleguide](Styleguide.md)
-- Frequently Asked Questions - [FAQ](https://github.com/QuantLet/Styleguide-and-Q-A/wiki)
-- How to format and upload your Quantlet to QuantNet 2.0 - [Workflow](QuantNet2.pdf)
-- Template for mandatory file in every QuantLet subfolder of a repository (see also __Guideline II__):
- - [metainfo.txt](TEMPLATE_Metainfo.txt)
-\- Please format your added content according to YAML as described in the [Styleguide](Styleguide.md). Thanks to your effort, we are able to automatically provide a standardized Readme.md to your repository.
-- __YAML parser debugger__ ([yamldebugger](https://github.com/lborke/yamldebugger)) according to the QuantNet style guide:
-	the R-Package [yamldebugger](https://github.com/lborke/yamldebugger) may be freely used for testing and validating the own Quantlets
-	bevore uploading them into https://github.com/quantlet .
-	Mainly, it checks the validity of the YAML meta information and the completeness of the mandatory data fields as described in [Styleguide](Styleguide.md)
+We **highly recommend** that you first familiarize yourself with the [Styleguide](guidelines/Styleguide_Guide_GitHub.pdf), at best before you start structuring.
 
-	
-__Guideline I:__
-- Abbreviations
-  - Q = Quantlet
-  - QNet = Quantnet
-  - repo = repository
-  - GH = GitHub
-  
-__Guideline II:__
-- Every Q has to be in its own subfolder in the repository (see also [Workflow](QuantNet2.pdf)). 
-  - Reponame/Qfolder1/files of Q1
-  - Reponame/Qfolder2/files of Q2
-  - Reponame/Qfolder3/files of Q3
-  
-- Some Examples:
+### Contacts for questions, problems, issues, suggestions, ...
+If you have questions, problems etc. that are not covered by the given documents, 
+1. Have a look at our [Frequently Asked Questions page](FAQ.md).
+2. Should the issue remain, we recommend ...
+	- students to  consult your project supervisor,
+	- researchers to consult your cooperating author from the IRTG. 
+3. For all remaining issues please consult the Quantlet Team.
+	- We offer office hours Tuesdays from 10 am to 11 am in Room 110 at Dorotheenstr. 1, 10117 Berlin. Please notify us via QUANTLET.wiwi@HU-Berlin.de about before your visit, such that we can organize accordingly.
+	- Address your issue to us via QUANTLET.wiwi@HU-Berlin.de, in that case please always provide your Github username and include links to repositories you are referring to. 
 
-  1. [MSM] (https://github.com/QuantLet/MSM) (Reponame: MSM, 12 Qfolders)
-  2. [Psychological-diagnostics] (https://github.com/QuantLet/Psychological-diagnostics) (Reponame: Psychological-diagnostics, 1 Qfolder)
-  3. [TimeVaryingPenalization] (https://github.com/QuantLet/TimeVaryingPenalization) (Reponame: TimeVaryingPenalization, 4 Qfolders)
+### Team
+- E. Zinovyeva
+- M. Sterling
+- Prof. Dr. W. Härdle
 
-__Guideline III:__
-- Avoid blanks in the repository names!
-- Avoid unnecessary special characters in the names of repositories, subfolders and Qs
-- In case of doubt use the underscore character "_"
-- Some good Examples:
-  1. [big_data_analysis] (https://github.com/QuantLet/big_data_analysis)
-  2. [MMSTAT] (https://github.com/QuantLet/MMSTAT)
-  3. [Git2Q3-Collaboration] (https://github.com/QuantLet/Git2Q3-Collaboration)
-- Some bad Examples:
-  1. [lCARE-BTU-HU-] (https://github.com/QuantLet/lCARE-BTU-HU-) (unnecessary dash)
-- Please note that repos with bad name notation will be excluded from final validation and importing into the [Visualization] (http://quantnet.wiwi.hu-berlin.de/d3/ia/). It's up to you to rename your repos accordingly. Actually, some special characters make the automatic processing impossible.
+### Contact
+Quantlet Team <br/>
+IRTG 1792 'High Dimensional Nonstationary Time Series'<br/>
+
+Humboldt University Berlin <br/>
+School of Business and Economics<br/>
+Dorotheenstr. 1<br/>
+10117 Berlin<br/>
+
+E-Mail: QUANTLET.wiwi@HU-Berlin.de
+
