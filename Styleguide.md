@@ -13,7 +13,7 @@ Every Quantlet folder consists of two elementary parts / files:
   - Contains meta-information about the functionality, origin and purpose of your Quantlet. Furthermore, lists of keywords and references to other related Quantlets. 
   - You will need to create a Metainfo.txt file, which will be used for the [Quantlet Visualization](http://www.quantlet.de) and data mining practices (e.g. clustering, filtering and recommendation engines) and is therefore __mandatory__.
   - We use YAML to format metainfo.txt to make things easy and fast, YAML is a human-friendly, cross language data serialization language that can be parsed by a computer. For further information about YAML notations, see [YAML](YAML.md).
-  - You can use the [Metainfo.txt template](TEMPLATE_Metainfo.txt) as a blueprint for your Metainfo.txt file. If you are unsure about your Metainfo.txt files parsability, we recommend you to use this page [yaml-online-parser.appspot.com](http://yaml-online-parser.appspot.com/) to check it.
+  - You can use the [Metainfo.txt template](Metainfo.txt) as a blueprint for your Metainfo.txt file. If you are unsure about your Metainfo.txt files parsability, we recommend you to use this page [yaml-online-parser.appspot.com](http://yaml-online-parser.appspot.com/) to check it.
 
 * __Quantletcode:__   
   - A correctly working code represents the second elementary part. The described functionality in the Metainfo.txt should practically be realizable by using the provided code.
