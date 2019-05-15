@@ -14,11 +14,11 @@ __This repository includes:__
 	- the requirements toward the Quantlet(s) and the accompanying Metainfo.txt file,
 	- how to structure your Quantlet(s) within your repository,
 	- for additional information see the page [styleguide](Styleguide.md).
-- [Submission Guideline for Members of the Quantlet organization](guidelines/Submission_Guide_GitHub_Members.pdf): It details ...
+- [__Submission Guide for Members of the Quantlet organization__](guidelines/Submission_Guide_GitHub_Members.pdf): It details ...
 	- how to submit to or change an existing repository,
 	- how to fork a repository into the Github Quantlet organization,
 	- how to create a new repository.
-- [Submission Guideline for NON Members of the Quantlet organization](guidelines/Submission_Guide_GitHub_Non_Members.pdf): It details ...
+- [__Submission Guide for NON Members of the Quantlet organization__](guidelines/Submission_Guide_GitHub_Non_Members.pdf): It details ...
 	- how to submit to an existing repository via pull request,
 	- entire repsotories can only be forked into the Github Quantlet organisation by a member. 
-- Frequently Asked Questions - [FAQ](https://github.com/QuantLet/Styleguide-and-Q-A/wiki)
+- Frequently Asked Questions - [FAQ](FAQ.md)
