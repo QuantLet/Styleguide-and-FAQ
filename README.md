@@ -19,7 +19,6 @@ __This repository includes:__
 - [__Submission Guide for NON Members of the Quantlet organization__](guidelines/Submission_Guide_GitHub_Non_Members.pdf): It details ...
 	- how to submit to an existing repository via pull request,
 	- entire repsotories can only be forked into the Github Quantlet organisation by a member. 
-- 
 
 We **highly recommend** that you first familiarize yourself with the [Styleguide](guidelines/Styleguide_Guide_GitHub.pdf), at best before you start structering.
 
