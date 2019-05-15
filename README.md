@@ -23,7 +23,7 @@ __This repository includes:__
 
 We **highly recommend** that you first familiarize yourself with the [Styleguide](guidelines/Styleguide_Guide_GitHub.pdf), at best before you start structering.
 
-If you have questions or problems, that are not covered by the documents above, have a look at our [Frequently Asked Questions page](FAQ.md). Should the issue remain, we ask students to first consult your project superviser, researchers to to consult your cooperating author from the IRTG. For all remaining issues please contact the Quantlet Team via [e-mail QUANTLET.wiwi@HU-Berlin.de](QUANTLET.wiwi@HU-Berlin.de).
+If you have questions or problems, that are not covered by the documents above, have a look at our [Frequently Asked Questions page](FAQ.md). Should the issue remain, we ask students to first consult your project superviser, researchers to to consult your cooperating author from the IRTG. For all remaining issues please contact the Quantlet Team via e-mail QUANTLET.wiwi@HU-Berlin.de.
 
 ### Contact
 ```yaml
