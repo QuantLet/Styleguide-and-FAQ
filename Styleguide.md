@@ -1,7 +1,7 @@
 
 [<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/banner.png" width="880" alt="Visit QuantNet">](http://quantlet.de/index.php?p=info)
 
-# <img src="pictures/githublogo.png" width="120" /> **Styleguide of QuantLets** [<img src="https://github.com/QuantLet/Styleguide-and-Validation-procedure/blob/master/pictures/qloqo.png" alt="Visit QuantNet">](http://quantlet.de/)[<img src="https://github.com/QuantLet/Styleguide-and-Validation-procedure/blob/master/pictures/QN2.png" width="60" alt="Visit QuantNet 2.0">](http://quantlet.de/d3/ia)
+# <img src="pictures/githublogo.png" width="120" /> [**Styleguide of QuantLets**](guidelines/Styleguide_Guide_GitHub.pdf) [<img src="https://github.com/QuantLet/Styleguide-and-Validation-procedure/blob/master/pictures/qloqo.png" alt="Visit QuantNet">](http://quantlet.de/)[<img src="https://github.com/QuantLet/Styleguide-and-Validation-procedure/blob/master/pictures/QN2.png" width="60" alt="Visit QuantNet 2.0">](http://quantlet.de/d3/ia)
 
 
 The following pages will introduce the Styleguide of Quantlets (Qs). An overview of the structure of a Q is given while explaining each part's relevance.
@@ -20,21 +20,6 @@ In the next sections, you will find examples on how to format the "metainfo.txt"
 
 * __Quantletcode:__ A correctly working code represents the second elementary part. The described functionality in the metainfo.txt should practically be realizable by using the provided code. Besides correct functionality the code needs to be formatted according to the here provided styleguide.
 Formatting ensures human readability while comprehensibility is ensured by sufficient and precise comments.
-
-### 1.1. Metainfo.txt
-#### Required and optional Meta-Information
-
-1. __Name of Quantlet__ : e.g. SFEDAXlogreturns (Omit endings like .r .m .sas or .py)
-2. __Published in__ : Book / Paper / other Place of publication
-3. __Description__ : at least 10 words; should begin with a verb and with capital letters, e.g. "Plots the time series ..."
-4. __Keywords__ : at least 5 words (the more the merrier), please use the [yamldebugger](https://github.com/lborke/yamldebugger) for their validation, the more provided keywords are in the Quantlet list the better for the text mining!
-5. __Author__ : Name of the Author
-6. __See also (optional)__ : mention related Quantlets
-7. __Submitted (optional)__ : state the name and the time of the original submission
-8. __Datafile (optional)__ : All datafiles used by your code need to be listed here
-9. __Input (optional)__ : Should contain some new info, which is not written in other metainfo fields
-10. __Output (optional)__ : Should contain some new info, which is not written in other metainfo fields
-11. __Example (optional)__  : Should contain a list of generated plots and descriptions, which are not written in other metainfo fields
 
 #### _Important_:  
 1. Make sure that the provided 'Name of Quantlet' and the actual filename of your provided Codefile is identical! Otherwise the automatic Readme.md creation will be incomplete.
