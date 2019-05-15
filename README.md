@@ -11,7 +11,7 @@
 
 __This repository includes:__
 - [__Styleguide of Quantlets__](guidelines/Styleguide_Guide_GitHub.pdf):
-	-- a
+	- a
 - Frequently Asked Questions - [FAQ](https://github.com/QuantLet/Styleguide-and-Q-A/wiki)
 - How to format and upload your Quantlet to QuantNet 2.0 - [Workflow](QuantNet2.pdf)
 - Template for mandatory file in every QuantLet subfolder of a repository (see also __Guideline II__):
