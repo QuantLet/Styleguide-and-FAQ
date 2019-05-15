@@ -11,11 +11,14 @@ In the second section you will find basic instructions on how to work with the d
 
 Finally, several illustrative examples of correct Quantlets are listed in the Appendix.
 
-## 1. Structure of a Quantlet folder in a Github repository (see also __Guideline II__ in [README](README.md))
+### Structure of a Quantlet folder in a Github repository
+This contains additional information to [**Styleguide of QuantLets**](guidelines/Styleguide_Guide_GitHub.pdf).
 
-Every Quantlet folder consists of two elementary parts / files with equal relevance:
+Every Quantlet folder consists of two elementary parts / files:
 * __Metainfo.txt:__ Contains meta-information about the functionality, origin and purpose of your Quantlet. Furthermore, lists of keywords and references to other related Quantlets are stated. You will need to create the file "metainfo.txt", which will be formatted in 'YAML' - an easy and intuitive
-data serialization language. The formatted "metainfo.txt" will be used for the [Quantlet Visualization] (http://www.quantlet.de) and data mining practices (e.g. clustering, filtering and recommendation engines) and is therefore __mandatory__. You can use the [Metainfo.txt template](TEMPLATE_Metainfo.txt) to avoid yaml errors. We recommend this [page](http://yaml-online-parser.appspot.com/) to check whether your Metainfo.txt file is [YAML parsable](http://yaml-online-parser.appspot.com/).
+data serialization language. The formatted "metainfo.txt" will be used for the [Quantlet Visualization] (http://www.quantlet.de) and data mining practices (e.g. clustering, filtering and recommendation engines) and is therefore __mandatory__. 
+- We use YAML to format metainfo.txt to make things easy and fast, YAML is a human-friendly, cross language data serialization language that can be parsed by a computer.
+- You can use the [Metainfo.txt template](TEMPLATE_Metainfo.txt) to have the main Metainfo.txt file structure. If you want to check your Metainfo.txt files parsability, we recommend this page is [yaml-online-parser.appspot.com](http://yaml-online-parser.appspot.com/).
 
 * __Quantletcode:__ A correctly working code represents the second elementary part. The described functionality in the Metainfo.txt should practically be realizable by using the provided code.
 
@@ -23,11 +26,7 @@ data serialization language. The formatted "metainfo.txt" will be used for the [
 1. Make sure that the provided 'Name of Quantlet' and the actual filename of your provided Codefile is identical! Otherwise the automatic Readme.md creation will be incomplete.
 2. If a Quantlet is written in more than one programming language (i.e. Matlab/SAS), add relevant data fields like Author[Matlab], Author[SAS], Submitted[Matlab], Submitted[SAS], ... to the Metainfo.txt if you want to distinguish between different versions/languages.
 
-#### We use YAML to format metainfo.txt to make things easy and fast
-YAML™ is a human-friendly, cross language data serialization language. You will use it almost intuitively. Thanks to YAML, there is no need to use the #-Symbol as in Quantnet 1.0 in the metainfo anymore.
-The metainfo and the code parts are now clearly separated. However, an automatic evaluation and aggregation of these elementary parts becomes possible.
-It is even robust against redundant space in description parts although we advise to avoid these. Besides that, there are alternative ways on how to structure enumerations in a YAML-File.
-
+#### . 
 
 #### Example of a complete and correct "metainfo.txt" in YAML format
 
