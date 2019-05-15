@@ -10,7 +10,8 @@
 ### We highly recommend that you first familiarize yourself with the [Styleguide](guidelines/Styleguide_Guide_GitHub.pdf), at best before you start programming your project.
 
 __This repository includes:__
-- __Styleguide of Quantlets__ - [Styleguide](Styleguide.md)
+- [__Styleguide of Quantlets__](guidelines/Styleguide_Guide_GitHub.pdf):
+	-- a
 - Frequently Asked Questions - [FAQ](https://github.com/QuantLet/Styleguide-and-Q-A/wiki)
 - How to format and upload your Quantlet to QuantNet 2.0 - [Workflow](QuantNet2.pdf)
 - Template for mandatory file in every QuantLet subfolder of a repository (see also __Guideline II__):
