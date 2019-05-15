@@ -3,16 +3,10 @@
 
 # <img src="pictures/githublogo.png" width="120" /> [**Styleguide of QuantLets**](guidelines/Styleguide_Guide_GitHub.pdf) [<img src="https://github.com/QuantLet/Styleguide-and-Validation-procedure/blob/master/pictures/qloqo.png" alt="Visit QuantNet">](http://quantlet.de/)[<img src="https://github.com/QuantLet/Styleguide-and-Validation-procedure/blob/master/pictures/QN2.png" width="60" alt="Visit QuantNet 2.0">](http://quantlet.de/d3/ia)
 
-
-The following page will further the Styleguide of Quantlets (Qs). An overview of the structure of a Q is given while explaining each part's relevance.
-You will find descriptions and instructions on how to format your code as well as detailed examples about the required information for your Q. 
-
-In the second section you will find basic instructions on how to work with the desktop client version of Github, which includes additional features to upload pictures and datafiles as separate files to your Q's repository.
-
-Finally, several illustrative examples of correct Quantlets are listed in the Appendix.
+This page gives additional information to the [**Styleguide of QuantLets**](guidelines/Styleguide_Guide_GitHub.pdf).
 
 ### Structure of a Quantlet folder in a Github repository
-This contains additional information to [**Styleguide of QuantLets**](guidelines/Styleguide_Guide_GitHub.pdf).
+
 
 Every Quantlet folder consists of two elementary parts / files:
 * __Metainfo.txt:__   
