@@ -16,5 +16,5 @@ Every Quantlet folder consists of two elementary parts / files:
   - A correctly working code represents the second elementary part. The described functionality in the Metainfo.txt should practically be realizable by using the provided code.
 
 #### _Important_:  
-1. Make sure that the provided 'Name of Quantlet' and the actual filename of your provided Codefile is identical! Otherwise the automatic Readme.md creation will be incomplete.
+1. Make sure that the **provided 'Name of Quantlet'** and the **actual filename** of your provided Codefile is **identical**! Otherwise the automatic Readme.md creation will be incomplete.
 2. If a Quantlet is written in more than one programming language (i.e. Matlab/SAS), add relevant data fields like Author[Matlab], Author[SAS], Submitted[Matlab], Submitted[SAS], ... to the Metainfo.txt if you want to distinguish between different versions/languages.
