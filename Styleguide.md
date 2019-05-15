@@ -5,9 +5,6 @@
 
 This page gives additional information to the [**Styleguide of QuantLets**](guidelines/Styleguide_Guide_GitHub.pdf).
 
-### Structure of a Quantlet folder in a Github repository
-
-
 Every Quantlet folder consists of two elementary parts / files:
 * __Metainfo.txt:__   
   - Contains meta-information about the functionality, origin and purpose of your Quantlet. Furthermore, lists of keywords and references to other related Quantlets. 
