@@ -22,19 +22,29 @@ __This repository includes:__
 
 We **highly recommend** that you first familiarize yourself with the [Styleguide](guidelines/Styleguide_Guide_GitHub.pdf), at best before you start structering.
 
-If you have questions or problems, that are not covered by the documents above, have a look at our [Frequently Asked Questions page](FAQ.md). Should the issue remain, we ask students to first consult your project superviser, researchers to to consult your cooperating author from the IRTG. For all remaining issues please contact the Quantlet Team via e-mail QUANTLET.wiwi@HU-Berlin.de.
+### Contacts in case of questions, problems, issues, suggestions, ...
+If you have questions or problems, that are not covered by the documents above, 
+1. Have a look at our [Frequently Asked Questions page](FAQ.md)
+2. Should the issue remain, we recommend ...
+	- students to  consult your project superviser,
+	- researchers to consult your cooperating author from the IRTG. 
+3. For all remaining issues please consult the Quantlet Team.
+	- We offer office hours Tuesdays from 10am to 11am in Room 110 at Dorotheenstr. 1, 10117 Berlin. Please annouce your visit via mail QUANTLET.wiwi@HU-Berlin.de before.
+	- Contact via QUANTLET.wiwi@HU-Berlin.de,  please always provide your Github username and include links to repositories you are referring to. 
+
+### Team
+- E. Zinovyeva
+- M. Sterling
+- Prof. Dr. W. Härdle
 
 ### Contact
-```
+Quantlet Team <br/>
+IRTG 1792 'High Dimensional Nonstationary Time Series'<br/>
 
-Quantlet Team 
-
-IRTG 1792 'High Dimensional Nonstationary Time Series'
-Humboldt University Berlin
-
-School of Business and Economics
-Dorotheenstr. 1
-10117 Berlin
+Humboldt University Berlin <br/>
+School of Business and Economics<br/>
+Dorotheenstr. 1<br/>
+10117 Berlin<br/>
 
 E-Mail: QUANTLET.wiwi@HU-Berlin.de
-```
+
