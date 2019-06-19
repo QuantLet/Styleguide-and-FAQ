@@ -1,5 +1,5 @@
 
-Name of Quantlet: 'MANDATORY!'
+Name of Quantlet: 'MANDATORY! Has to be the same as the Quantlet file, without file type ending, e.g. R,py,...'
 
 Published in: 'MANDATORY!'
 
