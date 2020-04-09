@@ -35,7 +35,7 @@ If you have questions, problems etc. that are not covered by the given documents
 ### Team
 - M. Sterling
 - E. Zinovyeva
-- Dr. A. Petukhina
+- F. Liu
 - Prof. Dr. W. Härdle
 
 ### Contact
