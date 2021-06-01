@@ -33,8 +33,8 @@ If you have questions, problems etc. that are not covered by the given documents
 	- Address your issue to us via QUANTLET.wiwi@HU-Berlin.de, in that case please always provide your Github username and include links to repositories you are referring to. 
 
 ### Team
-- M. Sterling
 - E. Zinovyeva
+- J. Winkel
 - F. Liu
 - Prof. Dr. W. Härdle
 
