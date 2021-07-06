@@ -24,7 +24,7 @@ We **highly recommend** that you first familiarize yourself with the [Styleguide
 
 ### Contacts for questions, problems, issues, suggestions, ...
 If you have questions, problems etc. that are not covered by the given documents, 
-1. Have a look at our [Frequently Asked Questions page](https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/guidelines/20210706_Styleguide_Guide_GitHub_FAQ_pdf.pdf).
+1. Have a look at our [Frequently Asked Questions page](https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/guidelines/20210706_Styleguide_Guide_GitHub_FAQ.pdf).
 2. Should the issue remain, we recommend ...
 	- students to  consult your project supervisor,
 	- researchers to consult your cooperating author from the IRTG. 
