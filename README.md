@@ -47,5 +47,5 @@ School of Business and Economics<br/>
 Dorotheenstr. 1<br/>
 10117 Berlin<br/>
 
-E-Mail: QUANTLET.wiwi@HU-Berlin.de
+E-Mail: QUANTLET.wiwi@gmail.com
 
