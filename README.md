@@ -29,13 +29,14 @@ If you have questions, problems etc. that are not covered by the given documents
 	- students to  consult your project supervisor,
 	- researchers to consult your cooperating author from the IRTG. 
 3. For all remaining issues please consult the Quantlet Team.
-	- We offer office hours Tuesdays from 10 am to 11 am in Room 110 at Dorotheenstr. 1, 10117 Berlin. Please notify us via QUANTLET.wiwi@HU-Berlin.de about before your visit, such that we can organize accordingly.
-	- Address your issue to us via QUANTLET.wiwi@HU-Berlin.de, in that case please always provide your Github username and include links to repositories you are referring to. 
+	- We offer office hours Tuesdays from 10 am to 11 am in Room 110 at Dorotheenstr. 1, 10117 Berlin. Please notify us via QUANTLET.gmail@HU-Berlin.de about before your visit, such that we can organize accordingly.
+	- Address your issue to us via QUANTLET.gmail@HU-Berlin.de, in that case please always provide your Github username and include links to repositories you are referring to. 
 
 ### Team
 - E. Zinovyeva
 - J. Winkel
 - F. Liu
+- B, Raul
 - Prof. Dr. W. Härdle
 
 ### Contact
