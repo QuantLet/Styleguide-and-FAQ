@@ -1,0 +1,36 @@
+<div style="margin: 0; padding: 0; text-align: center; border: none;">
+<a href="https://quantlet.com" target="_blank" style="text-decoration: none; border: none;">
+<img src="https://github.com/StefanGam/test-repo/blob/main/quantlet_design.png?raw=true" alt="Header Image" width="100%" style="margin: 0; padding: 0; display: block; border: none;" />
+</a>
+</div>
+
+```
+```
+<div align="center">
+<img src="https://raw.githubusercontent.com/QuantLet/Styleguide-and-FAQ/master/pictures/Plotly_logo.png" alt="Image" />
+</div>
+
+<div align="center">
+<img src="https://raw.githubusercontent.com/QuantLet/Styleguide-and-FAQ/master/pictures/QN2.png" alt="Image" />
+</div>
+
+<div align="center">
+<img src="https://raw.githubusercontent.com/QuantLet/Styleguide-and-FAQ/master/pictures/RapidPrototyping.png" alt="Image" />
+</div>
+
+<div align="center">
+<img src="https://raw.githubusercontent.com/QuantLet/Styleguide-and-FAQ/master/pictures/banner.png" alt="Image" />
+</div>
+
+<div align="center">
+<img src="https://raw.githubusercontent.com/QuantLet/Styleguide-and-FAQ/master/pictures/githublogo.png" alt="Image" />
+</div>
+
+<div align="center">
+<img src="https://raw.githubusercontent.com/QuantLet/Styleguide-and-FAQ/master/pictures/qloqo.png" alt="Image" />
+</div>
+
+<div align="center">
+<img src="https://raw.githubusercontent.com/QuantLet/Styleguide-and-FAQ/master/pictures/shiny_logo.png" alt="Image" />
+</div>
+
